@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AndyAI Finance Engine Assumption Record",
+  "type": "object",
+  "required": [
+    "assumption_name",
+    "value",
+    "basis",
+    "owner",
+    "status"
+  ],
+  "properties": {
+    "assumption_name": {
+      "type": "string"
+    },
+    "value": {},
+    "basis": {
+      "type": "string",
+      "enum": [
+        "historical",
+        "benchmark",
+        "human_estimate",
+        "ai_suggested",
+        "contracted",
+        "unknown"
+      ]
+    },
+    "owner": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "reviewed",
+        "approved",
+        "rejected"
+      ]
+    },
+    "risk_level": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    }
+  }
+}

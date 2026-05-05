@@ -1,0 +1,26 @@
+{
+  "project_name": "Example SaaS Pricing Model",
+  "business_type": "saas",
+  "currency": "USD",
+  "periods": [
+    "2026",
+    "2027",
+    "2028"
+  ],
+  "inputs": {
+    "starting_customers": 100,
+    "monthly_price": 49,
+    "monthly_churn_rate": 0.03,
+    "monthly_new_customers": 25,
+    "gross_margin": 0.82
+  },
+  "documents": [
+    {
+      "name": "business_brief.md",
+      "type": "brief",
+      "source": "manual"
+    }
+  ],
+  "human_reviewer": "Founder / finance reviewer",
+  "approval_required": true
+}

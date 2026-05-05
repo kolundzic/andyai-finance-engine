@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AndyAI Finance Engine Business Input",
+  "type": "object",
+  "required": [
+    "project_name",
+    "business_type",
+    "currency",
+    "periods",
+    "inputs"
+  ],
+  "properties": {
+    "project_name": {
+      "type": "string"
+    },
+    "business_type": {
+      "type": "string",
+      "enum": [
+        "saas",
+        "agency",
+        "ecommerce",
+        "consulting",
+        "local_business",
+        "startup",
+        "other"
+      ]
+    },
+    "currency": {
+      "type": "string"
+    },
+    "periods": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "inputs": {
+      "type": "object"
+    },
+    "documents": {
+      "type": "array"
+    },
+    "human_reviewer": {
+      "type": "string"
+    },
+    "approval_required": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
