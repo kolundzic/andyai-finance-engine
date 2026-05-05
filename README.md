@@ -23,3 +23,19 @@
 - Example business input
 - Verification script
 - GitHub bootstrap script
+
+## Public Showcase
+
+AndyAI Finance Engine now includes a Next.js public showcase layer for Vercel deployment.
+
+- `/` — public landing page
+- `/workflow` — governed finance workflow
+- `/demo` — working core demo preview
+- `/library` — Finance Solutions Library preview
+- `/proof` — proof and release line
+
+### Public product canon
+
+v1.0.0 = stable canon  
+v2.0.0 = working core  
+v3.0.0 = public showcase stable
