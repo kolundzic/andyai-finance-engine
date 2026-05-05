@@ -1,0 +1,9 @@
+[project]
+name = "andyai-finance-engine"
+version = "2.0.0"
+description = "AndyAI governed financial modeling working core"
+requires-python = ">=3.10"
+
+[tool.andyai]
+repo = "andyai-finance-engine"
+canon = "working-core-v2.0.0"
