@@ -1,0 +1,18 @@
+{
+  "project_name": "Demo SaaS Finance Model",
+  "currency": "USD",
+  "revenue_streams": [
+    { "name": "Starter Plan", "monthly_amount": 1200 },
+    { "name": "Pro Plan", "monthly_amount": 3400 }
+  ],
+  "costs": [
+    { "name": "Hosting", "monthly_amount": 250 },
+    { "name": "AI API Usage", "monthly_amount": 500 },
+    { "name": "Marketing", "monthly_amount": 800 }
+  ],
+  "assumptions": [
+    "Monthly revenue grows 8% in base scenario.",
+    "AI usage cost scales with active users.",
+    "Human approval is required before investor use."
+  ]
+}
