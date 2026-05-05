@@ -1,0 +1,102 @@
+{
+  "months": [
+    {
+      "month": 1,
+      "customers": 36,
+      "revenue": 1764.0,
+      "fixed_cost": 1200.0,
+      "variable_cost": 162.0,
+      "profit": 402.0
+    },
+    {
+      "month": 2,
+      "customers": 46,
+      "revenue": 2254.0,
+      "fixed_cost": 1200.0,
+      "variable_cost": 207.0,
+      "profit": 847.0
+    },
+    {
+      "month": 3,
+      "customers": 56,
+      "revenue": 2744.0,
+      "fixed_cost": 1200.0,
+      "variable_cost": 252.0,
+      "profit": 1292.0
+    },
+    {
+      "month": 4,
+      "customers": 65,
+      "revenue": 3185.0,
+      "fixed_cost": 1200.0,
+      "variable_cost": 292.5,
+      "profit": 1692.5
+    },
+    {
+      "month": 5,
+      "customers": 74,
+      "revenue": 3626.0,
+      "fixed_cost": 1200.0,
+      "variable_cost": 333.0,
+      "profit": 2093.0
+    },
+    {
+      "month": 6,
+      "customers": 83,
+      "revenue": 4067.0,
+      "fixed_cost": 1200.0,
+      "variable_cost": 373.5,
+      "profit": 2493.5
+    },
+    {
+      "month": 7,
+      "customers": 91,
+      "revenue": 4459.0,
+      "fixed_cost": 1200.0,
+      "variable_cost": 409.5,
+      "profit": 2849.5
+    },
+    {
+      "month": 8,
+      "customers": 99,
+      "revenue": 4851.0,
+      "fixed_cost": 1200.0,
+      "variable_cost": 445.5,
+      "profit": 3205.5
+    },
+    {
+      "month": 9,
+      "customers": 107,
+      "revenue": 5243.0,
+      "fixed_cost": 1200.0,
+      "variable_cost": 481.5,
+      "profit": 3561.5
+    },
+    {
+      "month": 10,
+      "customers": 114,
+      "revenue": 5586.0,
+      "fixed_cost": 1200.0,
+      "variable_cost": 513.0,
+      "profit": 3873.0
+    },
+    {
+      "month": 11,
+      "customers": 121,
+      "revenue": 5929.0,
+      "fixed_cost": 1200.0,
+      "variable_cost": 544.5,
+      "profit": 4184.5
+    },
+    {
+      "month": 12,
+      "customers": 128,
+      "revenue": 6272.0,
+      "fixed_cost": 1200.0,
+      "variable_cost": 576.0,
+      "profit": 4496.0
+    }
+  ],
+  "ending_arr": 75264.0,
+  "ending_mrr": 6272.0
+}

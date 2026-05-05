@@ -1,0 +1,14 @@
+{
+  "conservative": {
+    "ending_arr": 56448.0,
+    "note": "Lower acquisition / higher churn"
+  },
+  "base": {
+    "ending_arr": 75264.0,
+    "note": "Current assumptions"
+  },
+  "optimistic": {
+    "ending_arr": 101606.4,
+    "note": "Higher acquisition / lower churn"
+  }
+}

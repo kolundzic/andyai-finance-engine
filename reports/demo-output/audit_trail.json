@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-05-05T05:36:30.247159+00:00",
+  "engine": "andyai-finance-engine",
+  "version": "2.0.0",
+  "checks": [
+    {
+      "name": "required_input_fields",
+      "status": "passed"
+    },
+    {
+      "name": "pricing_months_generated",
+      "status": "passed",
+      "count": 12
+    },
+    {
+      "name": "human_review_gate",
+      "status": "required"
+    }
+  ],
+  "source_project": "AndyAI Finance Engine Demo SaaS",
+  "truth_rule": "AI can build the model fast. But the human must verify that the model tells the truth."
+}
