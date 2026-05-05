@@ -39,3 +39,22 @@ AndyAI Finance Engine now includes a Next.js public showcase layer for Vercel de
 v1.0.0 = stable canon  
 v2.0.0 = working core  
 v3.0.0 = public showcase stable
+
+## Supabase SaaS Foundation
+
+v4.0.0 adds the Supabase SaaS foundation:
+
+- `/supabase` — Supabase configuration status
+- `/projects` — project workspace foundation
+- `/runs` — model run evidence foundation
+- `/audit` — audit trail foundation
+- `/approval` — human approval gate foundation
+- `supabase/migrations/` — database schema
+- `supabase/policies/` — RLS policy draft
+
+### SaaS canon
+
+v1.0.0 = stable canon  
+v2.0.0 = working core  
+v3.0.0 = public showcase  
+v4.0.0 = Supabase SaaS foundation
