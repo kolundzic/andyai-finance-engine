@@ -329,3 +329,24 @@ h1 {
     grid-template-columns: 1fr;
   }
 }
+
+.statusGood,
+.statusWarn {
+  display: inline-flex;
+  margin: 12px 0;
+  padding: 12px 16px;
+  border-radius: 999px;
+  font-weight: 900;
+}
+
+.statusGood {
+  color: #047857;
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.22);
+}
+
+.statusWarn {
+  color: #a16207;
+  background: rgba(234, 179, 8, 0.14);
+  border: 1px solid rgba(234, 179, 8, 0.24);
+}
