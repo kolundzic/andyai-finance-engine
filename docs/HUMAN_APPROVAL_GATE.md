@@ -1,15 +1,18 @@
-# Human Approval Gate
+# v0.8.0 — Human Approval Gate Layer
+
+AI may prepare. Human approves.
 
 ## Approval states
 
-| State | Meaning |
-|---|---|
-| draft | AI/model output is not approved |
-| review | Human reviewer is checking |
-| challenged | Human reviewer found issues |
-| approved | Human reviewer accepts output |
-| rejected | Output cannot be used |
+- draft
+- review
+- challenged
+- approved
+- rejected
 
-## Authority rule
+## Required reviewer actions
 
-AI may prepare. Human approves.
+1. Check assumptions.
+2. Challenge suspicious values.
+3. Confirm logic.
+4. Approve or reject export.
