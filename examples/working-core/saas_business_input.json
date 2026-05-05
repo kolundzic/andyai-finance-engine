@@ -1,0 +1,28 @@
+{
+  "project_name": "AndyAI Finance Engine Demo SaaS",
+  "currency": "USD",
+  "pricing": {
+    "average_monthly_price": 49
+  },
+  "costs": {
+    "monthly_fixed_cost": 1200,
+    "variable_cost_per_customer": 4.5
+  },
+  "growth": {
+    "starting_customers": 25,
+    "monthly_new_customers": 12,
+    "monthly_churn_rate": 0.04
+  },
+  "assumptions": [
+    {
+      "name": "Average monthly price",
+      "value": 49,
+      "type": "human_assumption"
+    },
+    {
+      "name": "Monthly churn rate",
+      "value": 0.04,
+      "type": "human_assumption"
+    }
+  ]
+}
