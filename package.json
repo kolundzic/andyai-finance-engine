@@ -1,8 +1,8 @@
 {
   "name": "andyai-finance-engine",
-  "version": "2.0.1",
+  "version": "3.2.0",
   "private": true,
-  "description": "AndyAI Finance Engine — public showcase powered by a governed financial modeling core.",
+  "description": "AndyAI Finance Engine \u2014 public showcase powered by a governed financial modeling core.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
