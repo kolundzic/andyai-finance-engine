@@ -1,0 +1,16 @@
+{
+  "version": "68.0.0",
+  "tag": "v68.0.0",
+  "slug": "abuse-prevention-rate-limit-plan",
+  "title": "Abuse Prevention and Rate Limit Plan",
+  "route": "/abuse-rate-limit",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Abuse prevention becomes part of design."
+}
