@@ -255,3 +255,9 @@ Defines the boundary between repository preparation and real Supabase setup. Rea
 ## v7.2.0 — Migration Bundle Map
 
 Adds a migration bundle map and placeholder folder for future reviewed Supabase migrations. No migration is applied.
+
+---
+
+## v7.3.0 — Env Local Guard
+
+Adds a local guard script for Supabase environment variables. It passes before setup and can run strict after env values are added.
