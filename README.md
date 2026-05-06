@@ -273,3 +273,9 @@ Adds a non-blocking Supabase CLI preflight script. No live Supabase command is e
 ## v7.5.0 — Migration Application Runbook
 
 Adds a runbook for future Supabase migration application. No migration is applied.
+
+---
+
+## v7.6.0 — RLS Review Gate
+
+Adds RLS review gate and role matrix questions. No live RLS policy is applied.
