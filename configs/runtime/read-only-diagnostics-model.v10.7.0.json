@@ -1,0 +1,9 @@
+{
+  "version": "10.7.0",
+  "mode": "supabase_lab_read_only_diagnostics_model",
+  "connects_to_database": false,
+  "reads_rows": false,
+  "writes_rows": false,
+  "mutation_allowed": false,
+  "production_runtime_allowed": false
+}
