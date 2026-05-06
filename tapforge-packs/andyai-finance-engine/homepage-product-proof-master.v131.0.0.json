@@ -1,0 +1,15 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "131.0.0",
+  "title": "Homepage Product Proof Master",
+  "purpose": "Upgrade the homepage from thin idea page to clear product proof front door.",
+  "routes": ["/", "/pilot-request", "/workflow-proof", "/demo-gallery", "/model-preview", "/approval-flow"],
+  "acceptance": [
+    "homepage explains product clearly",
+    "proof modules are visible",
+    "pilot CTA is visible",
+    "no blind finance autopilot message is clear",
+    "build passes",
+    "tag v131.0.0 pushed"
+  ]
+}
