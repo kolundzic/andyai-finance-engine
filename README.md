@@ -352,3 +352,9 @@ Adds the dry-run contract required before TAPFORGE applies any Finance Engine mi
 ## v8.5.0 — Namespace Registry
 
 Adds namespace and prefix strategy for shared Supabase Free lab usage.
+
+---
+
+## v8.6.0 — Migration Evidence Ledger Contract
+
+Adds evidence ledger contract for TAPFORGE-controlled Finance Engine migration operations.

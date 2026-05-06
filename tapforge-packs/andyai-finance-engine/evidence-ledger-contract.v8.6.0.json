@@ -1,0 +1,23 @@
+{
+  "contract": "migration_evidence_ledger",
+  "contract_version": "8.6.0",
+  "required_event_fields": [
+    "timestamp",
+    "operator",
+    "pack_name",
+    "source_tag",
+    "target_environment",
+    "action",
+    "result",
+    "notes"
+  ],
+  "required_events": [
+    "pack_selected",
+    "source_tag_checked",
+    "manifest_verified",
+    "dry_run_completed",
+    "operator_approval_recorded",
+    "final_verification_recorded"
+  ],
+  "delete_policy": "append_first_do_not_silently_delete"
+}
