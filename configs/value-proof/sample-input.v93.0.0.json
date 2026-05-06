@@ -1,0 +1,35 @@
+{
+  "live_upload_enabled": false,
+  "sample_inputs": [
+    {
+      "field": "Revenue Jan",
+      "value": "$42,000",
+      "source": "CSV row"
+    },
+    {
+      "field": "Revenue Feb",
+      "value": "$48,000",
+      "source": "CSV row"
+    },
+    {
+      "field": "COGS rate",
+      "value": "38%",
+      "source": "Assumption"
+    },
+    {
+      "field": "Monthly payroll",
+      "value": "$18,500",
+      "source": "Spreadsheet"
+    },
+    {
+      "field": "Current cash",
+      "value": "$122,000",
+      "source": "Balance sheet"
+    },
+    {
+      "field": "Target runway",
+      "value": "12 months",
+      "source": "Founder note"
+    }
+  ]
+}
