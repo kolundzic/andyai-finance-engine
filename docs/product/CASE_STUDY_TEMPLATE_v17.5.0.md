@@ -1,0 +1,3 @@
+# v17.5.0 — Case Study Template
+
+Adds `/case-study`.
