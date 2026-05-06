@@ -1,0 +1,23 @@
+{
+  "version": "10.4.0",
+  "mode": "supabase_lab_read_only_query_contract",
+  "allowed_operations": ["select", "metadata"],
+  "blocked_operations": [
+    "insert",
+    "update",
+    "delete",
+    "upsert",
+    "truncate",
+    "drop",
+    "alter",
+    "create",
+    "grant",
+    "revoke",
+    "mutation_rpc"
+  ],
+  "mutation_allowed": false,
+  "production_runtime_allowed": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "webhooks_allowed": false
+}
