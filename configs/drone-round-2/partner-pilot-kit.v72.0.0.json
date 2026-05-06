@@ -1,0 +1,16 @@
+{
+  "version": "72.0.0",
+  "tag": "v72.0.0",
+  "slug": "partner-pilot-kit",
+  "title": "Partner Pilot Kit",
+  "route": "/partner-pilot",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Partner delivery becomes structured."
+}
