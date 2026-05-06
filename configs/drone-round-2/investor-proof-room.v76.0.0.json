@@ -1,0 +1,16 @@
+{
+  "version": "76.0.0",
+  "tag": "v76.0.0",
+  "slug": "investor-proof-room",
+  "title": "Investor Proof Room",
+  "route": "/investor-proof-room",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Investor-facing proof gets its own room."
+}
