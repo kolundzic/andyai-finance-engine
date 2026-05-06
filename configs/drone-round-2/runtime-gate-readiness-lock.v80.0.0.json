@@ -1,0 +1,16 @@
+{
+  "version": "80.0.0",
+  "tag": "v80.0.0",
+  "slug": "runtime-gate-readiness-lock",
+  "title": "Runtime Gate Readiness Lock",
+  "route": "/runtime-readiness",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Runtime gate readiness is sealed."
+}

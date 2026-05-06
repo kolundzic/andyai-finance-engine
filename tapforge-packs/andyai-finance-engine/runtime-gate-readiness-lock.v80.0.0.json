@@ -1,0 +1,14 @@
+{
+  "pack": "andyai-finance-engine",
+  "version": "80.0.0",
+  "lock": "runtime_gate_readiness",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "next_recommended_line": "v80.1.0 — Controlled Runtime Draft Sandbox"
+}
