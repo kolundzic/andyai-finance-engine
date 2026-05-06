@@ -1,0 +1,13 @@
+{
+  "pack": "andyai-finance-engine",
+  "version": "19.0.0",
+  "lock": "pilot_intake_prototype",
+  "routes": ["/pilot-intake", "/readiness"],
+  "live_submit_enabled": false,
+  "network_call_enabled": false,
+  "database_writes_allowed": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "payment_enabled": false,
+  "next_recommended_line": "v19.1.0 — Client Portal TOC"
+}
