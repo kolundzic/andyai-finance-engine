@@ -650,3 +650,17 @@ It records and verifies the post-apply safety boundary:
 - webhooks remain blocked
 - paid runtime remains blocked
 - DB URL and service secrets are not stored
+
+---
+
+## v10.1.0 — Supabase Lab Read-Only Runtime Wiring Gate
+
+This checkpoint defines the first safe runtime wiring gate after the Supabase Lab apply.
+
+### Rule
+
+The first runtime layer may look.
+
+It may not touch.
+
+Mutation, production runtime, billing, checkout, webhooks, and paid runtime remain blocked.
