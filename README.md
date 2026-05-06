@@ -97,3 +97,28 @@ No checkout route, webhook, payment provider SDK, subscription enforcement, paym
 ### Next Direction
 
 The next major line is Supabase monetization setup: database-backed membership, quota, audit, and approval foundations.
+
+---
+
+## v5.2.0 — Supabase Monetization Setup Readiness
+
+This checkpoint prepares AndyAI Finance Engine for Supabase-backed monetization setup.
+
+Supabase will become the backend foundation for membership state, usage quotas, audit trail, approval state, export history, manual review, and future billing event mapping.
+
+No live database runtime, migration, checkout, webhook, payment provider, or subscription enforcement is introduced in v5.2.0.
+
+### Next Runtime Direction
+
+- v5.3.0 — Membership Tables Draft
+- v5.4.0 — Usage Quota Tables Draft
+- v5.5.0 — Audit / Approval Tables Draft
+- v5.6.0 — RLS Policy Draft
+- v5.7.0 — Supabase Env + Setup Guide
+- v5.8.0 — Local Verification Script
+- v5.9.0 — Runtime Wiring Readiness
+- v6.0.0 — Supabase Monetization Runtime Foundation
+
+Supabase is not just a database.
+
+In AndyAI Finance Engine, Supabase becomes the memory and governance substrate for monetized financial modeling.
