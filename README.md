@@ -297,3 +297,9 @@ Adds combined live setup preflight verification script. It does not connect to S
 ## v7.9.0 — v8 Activation Readiness
 
 Adds readiness checklist for v8.0.0 Supabase Live Activation Gate. No live setup is performed.
+
+---
+
+## v8.0.0 — Supabase Live Activation Gate
+
+Completes the Supabase live activation gate. This is the point after which human-controlled real Supabase setup may begin.
