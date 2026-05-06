@@ -1,0 +1,15 @@
+{
+  "pack": "andyai-finance-engine",
+  "version": "13.0.0",
+  "domain": "finance.andyai.ai",
+  "public_routes": ["/finance-proof", "/api/finance/read-only/status"],
+  "online_proof_locked": true,
+  "database_writes_allowed": false,
+  "db_url_exposure_allowed": false,
+  "service_role_exposure_allowed": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "webhooks_allowed": false,
+  "paid_runtime_allowed": false,
+  "next_recommended_line": "v13.1.0 — Online Status Verification Evidence Capture"
+}

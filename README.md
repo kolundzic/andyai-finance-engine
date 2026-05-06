@@ -700,3 +700,18 @@ Executor candidate locked.
 Execution still requires a separate activation gate.
 
 Canonical domain: `finance.andyai.ai`
+
+---
+
+## v13.0.0 — Finance Engine Online Proof Lock
+
+Online proof surface locked for `finance.andyai.ai`.
+
+Routes:
+
+- `/finance-proof`
+- `/api/finance/read-only/status`
+
+The system now has eyes.
+
+The hands remain locked.
