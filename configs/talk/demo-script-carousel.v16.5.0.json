@@ -1,0 +1,21 @@
+{
+  "version": "16.5.0",
+  "slides": [
+    {
+      "title": "The problem",
+      "copy": "Financial modeling with generic AI is fast, but often hard to verify."
+    },
+    {
+      "title": "The boundary",
+      "copy": "AndyAI Finance Engine separates proof from execution."
+    },
+    {
+      "title": "The workflow",
+      "copy": "Input, draft model, evidence review, human approval, export readiness."
+    },
+    {
+      "title": "The pilot",
+      "copy": "Start with a controlled, read-only pilot before production automation."
+    }
+  ]
+}
