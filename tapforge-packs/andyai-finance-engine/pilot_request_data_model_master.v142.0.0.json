@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "142.0.0",
+  "title": "Pilot Request Data Model Master",
+  "title_sr": "Master model podataka za pilot zahtev",
+  "route": "/pilot-request-data-model",
+  "standard": "TAP-TAP UI/product clarity milestone"
+}
