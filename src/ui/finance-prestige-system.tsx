@@ -35,7 +35,8 @@ const glass: CSSProperties = {
 export const navItems = [
   ["Home", "/"],
   ["Proof", "/finance-proof"],
-  ["Runtime", "/api/finance/read-only/status"],
+  ["Talk", "/talk"],
+  ["Routes", "/routes"],
   ["Supabase", "/supabase"],
   ["Audit", "/audit"],
   ["Approval", "/approval"],
