@@ -1,0 +1,17 @@
+{
+  "version": "27.0.0",
+  "tag": "v27.0.0",
+  "slug": "audit-approval-demo-flow",
+  "title": "Audit and Approval Demo Flow",
+  "route": "/approval-demo",
+  "lock": "Approval flow becomes a public story.",
+  "live_submit_enabled": false,
+  "network_call_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "payment_enabled": false
+}
