@@ -346,3 +346,9 @@ Defines how TAPFORGE may import Finance Engine migration material without becomi
 ## v8.4.0 — TAPFORGE Apply Dry Run Contract
 
 Adds the dry-run contract required before TAPFORGE applies any Finance Engine migration pack.
+
+---
+
+## v8.5.0 — Namespace Registry
+
+Adds namespace and prefix strategy for shared Supabase Free lab usage.

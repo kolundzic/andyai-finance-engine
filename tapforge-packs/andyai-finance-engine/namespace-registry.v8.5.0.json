@@ -1,0 +1,15 @@
+{
+  "registry": "namespace_registry",
+  "registry_version": "8.5.0",
+  "preferred_schemas": {
+    "finance_engine": "Finance Engine tables",
+    "tapforge": "TAPFORGE orchestration tables",
+    "shared_audit": "Cross-system audit and evidence tables"
+  },
+  "prefix_fallback": {
+    "fe_": "Finance Engine",
+    "tf_": "TAPFORGE",
+    "audit_": "Shared audit or evidence"
+  },
+  "free_account_policy": "small_lab_only"
+}
