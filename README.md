@@ -279,3 +279,9 @@ Adds a runbook for future Supabase migration application. No migration is applie
 ## v7.6.0 — RLS Review Gate
 
 Adds RLS review gate and role matrix questions. No live RLS policy is applied.
+
+---
+
+## v7.7.0 — Vercel Env Sync Checklist
+
+Adds Vercel environment sync checklist for future Supabase activation. No Vercel env change is performed.
