@@ -1,0 +1,16 @@
+{
+  "pack": "andyai-finance-engine",
+  "version": "16.0.0",
+  "domain": "finance.andyai.ai",
+  "lock": "talk_ui_prototype",
+  "routes": ["/talk", "/client-demo", "/routes"],
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "provider_connected": false,
+  "external_ai_call_enabled": false,
+  "database_writes_allowed": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "webhooks_allowed": false,
+  "next_recommended_line": "v16.1.0 — Talk Interaction State Prototype"
+}
