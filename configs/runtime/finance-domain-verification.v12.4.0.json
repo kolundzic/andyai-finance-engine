@@ -1,0 +1,7 @@
+{
+  "version": "12.4.0",
+  "domain": "finance.andyai.ai",
+  "verification_script": "scripts/check-finance-domain-online.sh",
+  "mutation_allowed": false,
+  "database_connection_allowed": false
+}
