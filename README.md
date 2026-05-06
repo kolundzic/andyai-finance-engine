@@ -225,3 +225,9 @@ Adds future-facing manual review runtime interfaces. Interface only; no live que
 ## v6.7.0 — Runtime Boundary Index
 
 Adds a single TypeScript export index for Supabase runtime foundation contracts. No live runtime behavior is active.
+
+---
+
+## v6.8.0 — Runtime Verification Script
+
+Adds a local verification script for Supabase runtime foundation files.
