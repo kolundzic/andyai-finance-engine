@@ -243,3 +243,9 @@ Adds readiness checklist for v7.0.0 Governed Runtime Foundation.
 ## v7.0.0 — Governed Supabase Runtime Foundation
 
 Completes the governed Supabase runtime foundation at contract and verification level. No live database or payment behavior is activated.
+
+---
+
+## v7.1.0 — Supabase Live Setup Boundary
+
+Defines the boundary between repository preparation and real Supabase setup. Real setup should start after v8.0.0.
