@@ -1,0 +1,33 @@
+{
+  "pack": "andyai-finance-engine",
+  "db_url_safe_preflight_version": "9.9.2",
+  "source_repo": "https://github.com/kolundzic/andyai-finance-engine",
+  "source_tag": "v9.9.2",
+  "target_mode": "supabase_free_lab_db_url_preflight_only",
+  "apply_executed_by_release_tap": false,
+  "production_apply_allowed": false,
+  "checks": {
+    "psql_detected": true,
+    "supabase_db_url_shape_checked_if_present": true,
+    "supabase_db_url_value_printed": false,
+    "optional_read_only_connection_test": true,
+    "strict_env_guard": true,
+    "supabase_lab_smoke_test": true,
+    "lab_only_candidate_verifier": true
+  },
+  "blocked_actions": [
+    "automatic_apply_during_release",
+    "production_apply",
+    "secret_commit",
+    "db_url_print",
+    "service_role_print",
+    "human_attention_table_mutation"
+  ],
+  "decision_states": [
+    "db_url_missing",
+    "db_url_shape_failed",
+    "db_url_connection_failed",
+    "db_url_preflight_passed",
+    "tooling_ready_but_apply_blocked"
+  ]
+}

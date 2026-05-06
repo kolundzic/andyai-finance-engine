@@ -593,3 +593,23 @@ This checkpoint adds tooling preflight checks before any future lab-only SQL app
 Tooling readiness is not apply permission.
 
 No SQL is applied in v9.9.1.
+
+---
+
+## v9.9.2 — DB URL Safe Preflight
+
+This checkpoint adds safe `SUPABASE_DB_URL` preflight checks before any future lab-only SQL apply attempt.
+
+### Command
+
+```bash
+./scripts/check-supabase-db-url-preflight.sh
+```
+
+### Rule
+
+The DB URL is secret.
+
+The system may check its shape and connection readiness without printing the value.
+
+No SQL is applied in v9.9.2.
