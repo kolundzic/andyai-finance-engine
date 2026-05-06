@@ -539,3 +539,17 @@ Use prefix-based isolation first:
 No prefix lock, no apply.
 
 No SQL apply happens in v9.7.0.
+
+---
+
+## v9.8.0 — Prefixed SQL Preview Bundle
+
+This checkpoint adds the prefixed SQL preview bundle after the namespace decision lock.
+
+### Rule
+
+Preview is not apply.
+
+The preview uses `fe_` table names and ends with `ROLLBACK`.
+
+No SQL apply happens in v9.8.0.

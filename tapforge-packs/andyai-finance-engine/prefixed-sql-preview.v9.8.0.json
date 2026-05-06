@@ -1,0 +1,33 @@
+{
+  "pack": "andyai-finance-engine",
+  "prefixed_sql_preview_version": "9.8.0",
+  "source_repo": "https://github.com/kolundzic/andyai-finance-engine",
+  "source_tag": "v9.8.0",
+  "target_mode": "supabase_free_lab_prefixed_preview_only",
+  "migration_apply_allowed": false,
+  "production_apply_allowed": false,
+  "preview_bundle": "supabase/dry-run-preview/finance-engine-lab-prefixed-preview-v9.8.0.sql",
+  "locked_prefixes": {
+    "finance_engine": "fe_",
+    "tapforge": "tf_",
+    "shared_audit": "audit_",
+    "human_attention": "human_attention_"
+  },
+  "required_prefixed_tables": [
+    "fe_workspaces",
+    "fe_workspace_members",
+    "fe_membership_states",
+    "fe_quota_policies",
+    "fe_usage_events",
+    "fe_quota_windows",
+    "fe_audit_events",
+    "fe_approval_decisions",
+    "fe_export_records",
+    "fe_manual_review_queue"
+  ],
+  "decision_states": [
+    "blocked",
+    "needs_revision",
+    "prefixed_preview_accepted_for_lab_apply_candidate"
+  ]
+}
