@@ -303,3 +303,28 @@ Adds readiness checklist for v8.0.0 Supabase Live Activation Gate. No live setup
 ## v8.0.0 — Supabase Live Activation Gate
 
 Completes the Supabase live activation gate. This is the point after which human-controlled real Supabase setup may begin.
+
+---
+
+## v8.1.0 — Supabase Free Account Deployment Strategy
+
+This checkpoint defines how AndyAI Finance Engine should use a Supabase Free account safely.
+
+### Decision
+
+Do not duplicate all finance tables inside TAPFORGE as a second source of truth.
+
+Use this model:
+
+- AndyAI Finance Engine owns finance schema, SQL drafts, runtime contracts, and activation safety rules.
+- TAPFORGE orchestrates installation, verification, operator approval, and evidence logs.
+- Supabase Free is a lab/proof environment, not production.
+- Production waits for a deliberate upgrade path.
+
+### Rule
+
+Free Supabase is a proving ground.
+
+TAPFORGE is the orchestrator.
+
+Finance Engine is the source of truth.
