@@ -358,3 +358,9 @@ Adds namespace and prefix strategy for shared Supabase Free lab usage.
 ## v8.6.0 — Migration Evidence Ledger Contract
 
 Adds evidence ledger contract for TAPFORGE-controlled Finance Engine migration operations.
+
+---
+
+## v8.7.0 — TAPFORGE Pack Verification Script
+
+Adds verification script for TAPFORGE migration pack files and JSON manifests.
