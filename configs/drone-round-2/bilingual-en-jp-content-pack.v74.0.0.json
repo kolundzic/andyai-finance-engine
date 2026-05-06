@@ -1,0 +1,16 @@
+{
+  "version": "74.0.0",
+  "tag": "v74.0.0",
+  "slug": "bilingual-en-jp-content-pack",
+  "title": "Bilingual EN-JP Content Pack",
+  "route": "/bilingual-pack",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Bilingual content plan is locked."
+}
