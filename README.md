@@ -261,3 +261,9 @@ Adds a migration bundle map and placeholder folder for future reviewed Supabase 
 ## v7.3.0 — Env Local Guard
 
 Adds a local guard script for Supabase environment variables. It passes before setup and can run strict after env values are added.
+
+---
+
+## v7.4.0 — Supabase CLI Preflight
+
+Adds a non-blocking Supabase CLI preflight script. No live Supabase command is executed.
