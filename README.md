@@ -177,3 +177,9 @@ Adds 🟢 AndyAI Finance Engine — Supabase Monetization Foundation Verificatio
 ## v5.9.0 — Runtime Wiring Readiness
 
 Defines future runtime wiring requirements for server-side Supabase access, membership lookup, quota reads, audit inserts, approvals, exports, and manual review.
+
+---
+
+## v6.0.0 — Supabase Monetization Runtime Foundation
+
+Completes the Supabase monetization foundation at documentation and schema-draft level. No live database runtime or payment behavior is activated.
