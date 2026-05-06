@@ -1,0 +1,12 @@
+{
+  "version": "10.6.0",
+  "mode": "server_side_runtime_boundary",
+  "browser_service_role_allowed": false,
+  "browser_db_url_allowed": false,
+  "server_side_executor_allowed_later": true,
+  "mutation_allowed": false,
+  "production_runtime_allowed": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "webhooks_allowed": false
+}
