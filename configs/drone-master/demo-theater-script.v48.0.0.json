@@ -1,0 +1,17 @@
+{
+  "version": "48.0.0",
+  "tag": "v48.0.0",
+  "slug": "demo-theater-script",
+  "title": "Demo Theater Script",
+  "route": "/demo-theater",
+  "lock": "The product begins to perform its own story.",
+  "live_submit_enabled": false,
+  "network_call_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "payment_enabled": false
+}
