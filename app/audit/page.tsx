@@ -1,30 +1,32 @@
-import { Header } from "../components/Header";
-import { Footer } from "../components/Footer";
+import { EvidenceConsole, FeatureGrid, PrestigePage } from "../../src/ui/finance-prestige-system";
 
-const audit = [
-  ["info", "Input loaded", "Business input payload accepted."],
-  ["warning", "Assumption check", "Growth rate should be reviewed by a human."],
-  ["info", "Scenario generated", "Base, conservative, and optimistic cases prepared."]
-];
+export const metadata = {
+  title: "AndyAI Finance Engine — Audit Trail",
+  description: "Financial output must leave evidence.",
+};
 
 export default function AuditPage() {
   return (
-    <main className="page">
-      <Header />
-      <section className="sectionHero">
-        <span className="badge">Audit Trail</span>
-        <h1>Financial output must leave evidence.</h1>
-        <p className="lead">Audit events make assumptions, warnings, and model decisions visible before approval.</p>
-      </section>
-      <section className="panel">
-        {audit.map(([severity, title, message]) => (
-          <div className="step" key={title}>
-            <div className="num">{severity === "warning" ? "!" : "i"}</div>
-            <div><h3>{title}</h3><p>{message}</p></div>
-          </div>
-        ))}
-      </section>
-      <Footer />
-    </main>
+    <PrestigePage
+      active="/audit"
+      badge="Audit Trail"
+      title="Financial output must leave"
+      accent="evidence."
+      lead="Audit events make assumptions, warnings, model decisions, approvals, and export metadata visible before human approval."
+      right={<EvidenceConsole rows={[
+        ["Input loaded", "tracked", "green"],
+        ["Assumption check", "required", "gold"],
+        ["Human approval", "required", "gold"],
+        ["Mutation", "blocked", "green"],
+        ["Proof state", "visible", "blue"],
+      ]} />}
+    >
+      <FeatureGrid items={[
+        ["🧠", "Assumption visibility", "Every financial model should expose the assumptions behind its numbers."],
+        ["⚠️", "Warning capture", "Risk signals and weak inputs become visible before output is trusted."],
+        ["🧍", "Human approval", "The operator remains the authority gate before execution or delivery."],
+        ["📦", "Export evidence", "Future PDF/Excel exports should carry proof metadata, not just polished numbers."],
+      ]} />
+    </PrestigePage>
   );
 }
