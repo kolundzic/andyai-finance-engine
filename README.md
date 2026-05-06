@@ -231,3 +231,9 @@ Adds a single TypeScript export index for Supabase runtime foundation contracts.
 ## v6.8.0 — Runtime Verification Script
 
 Adds a local verification script for Supabase runtime foundation files.
+
+---
+
+## v6.9.0 — v7 Runtime Readiness Checklist
+
+Adds readiness checklist for v7.0.0 Governed Runtime Foundation.
