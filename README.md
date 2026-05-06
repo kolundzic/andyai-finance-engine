@@ -267,3 +267,9 @@ Adds a local guard script for Supabase environment variables. It passes before s
 ## v7.4.0 — Supabase CLI Preflight
 
 Adds a non-blocking Supabase CLI preflight script. No live Supabase command is executed.
+
+---
+
+## v7.5.0 — Migration Application Runbook
+
+Adds a runbook for future Supabase migration application. No migration is applied.
