@@ -1,6 +1,6 @@
 {
   "name": "andyai-finance-engine",
-  "version": "10.7.0",
+  "version": "10.8.0",
   "private": true,
   "description": "AndyAI Finance Engine — public showcase powered by a governed financial modeling core.",
   "scripts": {

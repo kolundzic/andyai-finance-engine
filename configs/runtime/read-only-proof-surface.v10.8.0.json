@@ -1,0 +1,18 @@
+{
+  "version": "10.8.0",
+  "mode": "read_only_proof_surface_blueprint",
+  "ui_execution_allowed": false,
+  "secret_display_allowed": false,
+  "mutation_allowed": false,
+  "production_runtime_allowed": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "webhooks_allowed": false,
+  "sections": [
+    "Lab Status",
+    "Table Allowlist",
+    "Runtime Safety Flags",
+    "Evidence Links",
+    "Next Gate"
+  ]
+}
