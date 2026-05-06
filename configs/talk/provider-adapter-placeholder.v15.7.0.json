@@ -1,0 +1,9 @@
+{
+  "version": "15.7.0",
+  "adapter_status": "placeholder_only",
+  "providers_connected": [],
+  "api_keys_allowed": false,
+  "runtime_calls_allowed": false,
+  "microphone_allowed": false,
+  "recording_allowed": false
+}
