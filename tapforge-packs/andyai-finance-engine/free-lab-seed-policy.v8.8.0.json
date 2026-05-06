@@ -1,0 +1,23 @@
+{
+  "policy": "supabase_free_lab_seed_policy",
+  "policy_version": "8.8.0",
+  "allowed_seed_data": [
+    "demo_workspace",
+    "demo_user_references",
+    "sample_membership_state",
+    "sample_quota_policy",
+    "small_audit_event_examples",
+    "sample_approval_state",
+    "fake_export_record_reference"
+  ],
+  "disallowed_seed_data": [
+    "real_customer_data",
+    "real_bank_data",
+    "payroll_data",
+    "private_investor_documents",
+    "generated_pdf_blobs",
+    "service_keys",
+    "production_billing_data"
+  ],
+  "database_mode": "small_lab_only"
+}

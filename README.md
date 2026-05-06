@@ -364,3 +364,9 @@ Adds evidence ledger contract for TAPFORGE-controlled Finance Engine migration o
 ## v8.7.0 — TAPFORGE Pack Verification Script
 
 Adds verification script for TAPFORGE migration pack files and JSON manifests.
+
+---
+
+## v8.8.0 — Supabase Free Lab Seed Policy
+
+Adds seed-data policy for a Supabase Free lab. No seed data is inserted.
