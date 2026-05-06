@@ -1,0 +1,17 @@
+{
+  "version": "32.0.0",
+  "tag": "v32.0.0",
+  "slug": "sales-ops-runbook",
+  "title": "Sales Ops Runbook",
+  "route": "/sales-ops",
+  "lock": "Sales process becomes systematic.",
+  "live_submit_enabled": false,
+  "network_call_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "payment_enabled": false
+}
