@@ -201,3 +201,9 @@ Adds a future-facing membership repository interface for workspace access state.
 ## v6.3.0 — Quota Runtime Interface
 
 Adds future-facing quota runtime interfaces. No live enforcement or Supabase calls are active.
+
+---
+
+## v6.4.0 — Audit Approval Runtime Interface
+
+Adds future-facing audit and approval runtime interfaces. Interface only; no live database writes.
