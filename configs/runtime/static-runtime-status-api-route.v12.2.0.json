@@ -1,0 +1,10 @@
+{
+  "version": "12.2.0",
+  "route": "/api/finance/read-only/status",
+  "method": "GET",
+  "connects_to_database": false,
+  "uses_supabase_client": false,
+  "mutation_allowed": false,
+  "production_runtime_allowed": false,
+  "build_anchors": ["app/not-found.tsx", "pages/404.tsx"]
+}
