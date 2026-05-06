@@ -1,0 +1,16 @@
+{
+  "version": "65.0.0",
+  "tag": "v65.0.0",
+  "slug": "audit-log-data-model-blueprint",
+  "title": "Audit Log Data Model Blueprint",
+  "route": "/audit-log-blueprint",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Audit model is planned but not stored."
+}
