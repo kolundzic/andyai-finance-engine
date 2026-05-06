@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "141.0.0",
+  "title": "Pilot Intake System Master",
+  "title_sr": "Master sistem za prijem pilot zahteva",
+  "route": "/pilot-intake-system",
+  "standard": "TAP-TAP UI/product clarity milestone"
+}
