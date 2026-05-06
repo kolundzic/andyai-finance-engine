@@ -1,0 +1,16 @@
+{
+  "version": "53.0.0",
+  "tag": "v53.0.0",
+  "slug": "draft-payload-schema",
+  "title": "Draft Payload Schema",
+  "route": "/draft-payload",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Draft payload is designed but not submitted."
+}
