@@ -1,0 +1,16 @@
+{
+  "version": "75.0.0",
+  "tag": "v75.0.0",
+  "slug": "sales-demo-theater-upgrade",
+  "title": "Sales Demo Theater Upgrade",
+  "route": "/sales-theater",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Sales story becomes presentable."
+}
