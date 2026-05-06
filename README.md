@@ -291,3 +291,9 @@ Adds Vercel environment sync checklist for future Supabase activation. No Vercel
 ## v7.8.0 — Live Setup Verification Pack
 
 Adds combined live setup preflight verification script. It does not connect to Supabase or apply migrations.
+
+---
+
+## v7.9.0 — v8 Activation Readiness
+
+Adds readiness checklist for v8.0.0 Supabase Live Activation Gate. No live setup is performed.
