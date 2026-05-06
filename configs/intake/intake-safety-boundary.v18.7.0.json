@@ -1,0 +1,9 @@
+{
+  "version": "18.7.0",
+  "live_submit_enabled": false,
+  "network_call_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "payment_enabled": false,
+  "human_review_required": true
+}
