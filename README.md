@@ -171,3 +171,9 @@ Adds 🟢 AndyAI Finance Engine — Supabase Monetization Foundation Verificatio
 🟢 Found: .env.example
 🟢 No tracked .env.local detected
 🟢 Verification complete to verify required Supabase monetization foundation files locally.
+
+---
+
+## v5.9.0 — Runtime Wiring Readiness
+
+Defines future runtime wiring requirements for server-side Supabase access, membership lookup, quota reads, audit inserts, approvals, exports, and manual review.
