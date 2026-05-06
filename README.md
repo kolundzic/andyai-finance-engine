@@ -736,3 +736,19 @@ See:
 
 - `docs/product/README_PRESTIGE_INDEX_v13.9.0.md`
 - `docs/tutorials/CLIENT_EXPLANATION_STARTER_v13.9.0.md`
+
+---
+
+## Current Product Milestones
+
+- v100.0.0 — Product Value Proof locked
+- v110.0.0 — Client Conversion and Pilot Readiness line
+
+## Current Public Positioning
+
+AndyAI Finance Engine turns messy financial documents into a reviewable model package with assumptions, evidence, risk notes, and human approval before anything is used.
+
+## Pilot CTA
+
+Request a pilot run — no payment, no automation, human review included.
+
