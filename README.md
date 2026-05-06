@@ -715,3 +715,24 @@ Routes:
 The system now has eyes.
 
 The hands remain locked.
+
+---
+
+## v13.9.0 — Prestige Product Index
+
+AndyAI Finance Engine is now presented as a governed financial modeling product surface.
+
+Public proof routes:
+
+- `https://finance.andyai.ai/`
+- `https://finance.andyai.ai/finance-proof`
+- `https://finance.andyai.ai/api/finance/read-only/status`
+
+Core boundary:
+
+> The system now has eyes. The hands remain locked.
+
+See:
+
+- `docs/product/README_PRESTIGE_INDEX_v13.9.0.md`
+- `docs/tutorials/CLIENT_EXPLANATION_STARTER_v13.9.0.md`
