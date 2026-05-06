@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "138.0.0",
+  "title": "Model Preview Workbench Master",
+  "title_sr": "Master radna tabla za pregled modela",
+  "route": "/model-preview-workbench",
+  "standard": "TAP-TAP UI/product clarity milestone"
+}
