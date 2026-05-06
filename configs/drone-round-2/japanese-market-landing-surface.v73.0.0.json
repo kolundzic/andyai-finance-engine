@@ -1,0 +1,16 @@
+{
+  "version": "73.0.0",
+  "tag": "v73.0.0",
+  "slug": "japanese-market-landing-surface",
+  "title": "Japanese Market Landing Surface",
+  "route": "/jp-market",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Japan-first positioning becomes visible."
+}
