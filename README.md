@@ -146,3 +146,9 @@ Adds draft Supabase tables for audit events, approval decisions, export records,
 ## v5.6.0 — RLS Policy Draft
 
 Adds a first conservative Row-Level Security draft for Supabase monetization tables. Draft only; review required before live use.
+
+---
+
+## v5.7.0 — Supabase Env and Setup Guide
+
+Adds Supabase environment setup guidance and . No live Supabase runtime behavior is introduced.
