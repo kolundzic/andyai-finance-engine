@@ -1,0 +1,11 @@
+{
+  "version": "12.1.0",
+  "route_candidate": "/api/finance/read-only/status",
+  "route_created_by_this_release": false,
+  "database_connection_allowed": false,
+  "mutation_allowed": false,
+  "production_runtime_allowed": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "webhooks_allowed": false
+}
