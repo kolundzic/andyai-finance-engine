@@ -1,0 +1,16 @@
+{
+  "version": "54.0.0",
+  "tag": "v54.0.0",
+  "slug": "redaction-privacy-filter-plan",
+  "title": "Redaction and Privacy Filter Plan",
+  "route": "/redaction-plan",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Privacy thinking becomes part of the runtime gate."
+}
