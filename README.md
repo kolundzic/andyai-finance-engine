@@ -219,3 +219,9 @@ Adds a pure local export safety gate for future export workflows. No paid export
 ## v6.6.0 — Manual Review Runtime Interface
 
 Adds future-facing manual review runtime interfaces. Interface only; no live queue writes.
+
+---
+
+## v6.7.0 — Runtime Boundary Index
+
+Adds a single TypeScript export index for Supabase runtime foundation contracts. No live runtime behavior is active.
