@@ -1,0 +1,13 @@
+{
+  "pack": "andyai-finance-engine",
+  "version": "110.0.0",
+  "lock": "client_conversion_readiness",
+  "primary_cta": "Request a pilot run \u2014 no payment, no automation, human review included.",
+  "pilot_page": "/pilot",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "next_recommended_line": "v110.1.0 \u2014 Screenshot Mockups and Demo Output Gallery"
+}
