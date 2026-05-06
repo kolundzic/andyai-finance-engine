@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "145.0.0",
+  "title": "Pilot Review Dashboard Master",
+  "title_sr": "Master dashboard za pregled pilota",
+  "route": "/pilot-review-dashboard",
+  "standard": "TAP-TAP UI/product clarity milestone"
+}
