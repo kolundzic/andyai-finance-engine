@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "144.0.0",
+  "title": "Email / CRM Handoff Master",
+  "title_sr": "Master email / CRM handoff sistema",
+  "route": "/email-crm-handoff",
+  "standard": "TAP-TAP UI/product clarity milestone"
+}
