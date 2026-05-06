@@ -1,37 +1,25 @@
 export const metadata = {
   title: "AndyAI Finance Engine — AI drafts. Human approves.",
-  description: "The product value is not automation alone; it is controlled automation under human authority.",
+  description: "The approval flow is the core trust differentiator: output is blocked until human review.",
 };
-
-const nav = [
-  ["Home", "/"],
-  ["Value Demo", "/value-demo"],
-  ["Sample Input", "/sample-input"],
-  ["Model Preview", "/model-preview"],
-  ["Evidence", "/evidence-pack"],
-  ["Approval", "/approval-flow"],
-  ["Use Cases", "/use-cases"],
-];
 
 export default function Page() {
   return (
     <main style={{minHeight:"100vh",background:"linear-gradient(135deg,#020617 0%,#0f172a 50%,#111827 100%)",color:"#f8fafc",fontFamily:"Inter,ui-sans-serif,system-ui"}}>
       <nav style={{maxWidth:1180,margin:"0 auto",padding:"22px 20px",display:"flex",justifyContent:"space-between",gap:12,flexWrap:"wrap"}}>
         <a href="/" style={{color:"#fff",textDecoration:"none",fontWeight:950,fontSize:21}}>AndyAI Finance</a>
-        <div style={{display:"flex",gap:8,flexWrap:"wrap"}}>
-          {nav.map(([label, href]) => <a key={href} href={href} style={{color:"#cbd5e1",textDecoration:"none",border:"1px solid rgba(148,163,184,0.2)",borderRadius:999,padding:"8px 11px",fontWeight:800,fontSize:12}}>{label}</a>)}
-        </div>
+        <div style={{display:"flex",gap:8,flexWrap:"wrap"}}><a href="/" style={{color:"#cbd5e1",textDecoration:"none",border:"1px solid rgba(148,163,184,0.22)",borderRadius:999,padding:"8px 11px",fontWeight:850,fontSize:12}}>Home</a><a href="/value-demo" style={{color:"#cbd5e1",textDecoration:"none",border:"1px solid rgba(148,163,184,0.22)",borderRadius:999,padding:"8px 11px",fontWeight:850,fontSize:12}}>Demo</a><a href="/pilot" style={{color:"#cbd5e1",textDecoration:"none",border:"1px solid rgba(148,163,184,0.22)",borderRadius:999,padding:"8px 11px",fontWeight:850,fontSize:12}}>Pilot</a><a href="/model-preview" style={{color:"#cbd5e1",textDecoration:"none",border:"1px solid rgba(148,163,184,0.22)",borderRadius:999,padding:"8px 11px",fontWeight:850,fontSize:12}}>Example Output</a><a href="/approval-flow" style={{color:"#cbd5e1",textDecoration:"none",border:"1px solid rgba(148,163,184,0.22)",borderRadius:999,padding:"8px 11px",fontWeight:850,fontSize:12}}>Approval</a><a href="/use-cases" style={{color:"#cbd5e1",textDecoration:"none",border:"1px solid rgba(148,163,184,0.22)",borderRadius:999,padding:"8px 11px",fontWeight:850,fontSize:12}}>Use Cases</a><a href="/trust-center" style={{color:"#cbd5e1",textDecoration:"none",border:"1px solid rgba(148,163,184,0.22)",borderRadius:999,padding:"8px 11px",fontWeight:850,fontSize:12}}>Trust</a></div>
       </nav>
       <section style={{maxWidth:1180,margin:"0 auto",padding:"70px 20px 34px"}}>
         <p style={{color:"#facc15",fontWeight:950,letterSpacing:"0.16em",textTransform:"uppercase",fontSize:12}}>APPROVAL FLOW</p>
-        <h1 style={{fontSize:"clamp(44px,8vw,88px)",lineHeight:0.9,letterSpacing:"-0.08em",margin:"12px 0 22px",maxWidth:980}}>AI drafts. Human approves.</h1>
-        <p style={{color:"#cbd5e1",fontSize:20,lineHeight:1.8,maxWidth:860}}>The product value is not automation alone; it is controlled automation under human authority.</p>
+        <h1 style={{fontSize:"clamp(44px,8vw,88px)",lineHeight:0.9,letterSpacing:"-0.08em",margin:"12px 0 22px",maxWidth:1000}}>AI drafts. Human approves.</h1>
+        <p style={{color:"#cbd5e1",fontSize:20,lineHeight:1.8,maxWidth:900}}>The approval flow is the core trust differentiator: output is blocked until human review.</p>
       </section>
-      <section style={{maxWidth:1180,margin:"0 auto",padding:"20px 20px 80px",display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(260px,1fr))",gap:16}}>
-        <section style={{border:"1px solid rgba(148,163,184,0.25)",background:"rgba(15,23,42,0.75)",borderRadius:24,padding:20}}><h2 style={{color:"#93c5fd",marginTop:0}}>Draft created</h2><p style={{color:"#dbeafe",lineHeight:1.7}}>The system creates a model preview and evidence pack.</p></section>
-<section style={{border:"1px solid rgba(148,163,184,0.25)",background:"rgba(15,23,42,0.75)",borderRadius:24,padding:20}}><h2 style={{color:"#facc15",marginTop:0}}>Reviewer checks</h2><p style={{color:"#dbeafe",lineHeight:1.7}}>A CFO, analyst, founder, or consultant reviews assumptions and warnings.</p></section>
-<section style={{border:"1px solid rgba(148,163,184,0.25)",background:"rgba(15,23,42,0.75)",borderRadius:24,padding:20}}><h2 style={{color:"#86efac",marginTop:0}}>Decision made</h2><p style={{color:"#dbeafe",lineHeight:1.7}}>Approve, reject, or request revision. No hidden execution.</p></section>
-      </section>
+      <section style={{maxWidth:1180,margin:"0 auto",padding:"20px",display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(260px,1fr))",gap:16}}><section style={{border:"1px solid rgba(148,163,184,0.25)",background:"rgba(15,23,42,0.75)",borderRadius:24,padding:20}}><h2 style={{color:"#93c5fd",marginTop:0,letterSpacing:"-0.04em"}}>Input received</h2><p style={{color:"#dbeafe",lineHeight:1.75,fontSize:16}}>The pilot material arrives as a static request: PDF, CSV, spreadsheet, notes, or business scenario.</p></section>
+<section style={{border:"1px solid rgba(148,163,184,0.25)",background:"rgba(15,23,42,0.75)",borderRadius:24,padding:20}}><h2 style={{color:"#facc15",marginTop:0,letterSpacing:"-0.04em"}}>Model drafted</h2><p style={{color:"#dbeafe",lineHeight:1.75,fontSize:16}}>The system prepares a draft model preview and marks assumptions that are uncertain.</p></section>
+<section style={{border:"1px solid rgba(148,163,184,0.25)",background:"rgba(15,23,42,0.75)",borderRadius:24,padding:20}}><h2 style={{color:"#fca5a5",marginTop:0,letterSpacing:"-0.04em"}}>Blocked until approved</h2><p style={{color:"#dbeafe",lineHeight:1.75,fontSize:16}}>No output is treated as final until a human reviewer accepts, rejects, or requests revision.</p></section>
+<section style={{border:"1px solid rgba(148,163,184,0.25)",background:"rgba(15,23,42,0.75)",borderRadius:24,padding:20}}><h2 style={{color:"#86efac",marginTop:0,letterSpacing:"-0.04em"}}>Output delivered</h2><p style={{color:"#dbeafe",lineHeight:1.75,fontSize:16}}>Only the reviewed package becomes usable for discussion, planning, or client delivery.</p></section></section>
+      <section style={{maxWidth:1180,margin:"0 auto",padding:"20px 20px 90px"}}><div style={{border:"1px solid rgba(250,204,21,0.32)",background:"linear-gradient(135deg,rgba(250,204,21,0.13),rgba(15,23,42,0.86))",borderRadius:28,padding:26,display:"grid",gap:14}}><p style={{color:"#facc15",fontWeight:950,letterSpacing:"0.12em",textTransform:"uppercase",fontSize:12,margin:0}}>Pilot invitation</p><h2 style={{fontSize:"clamp(28px,5vw,48px)",letterSpacing:"-0.06em",margin:0}}>Request a pilot run — no payment, no automation, human review included.</h2><p style={{color:"#dbeafe",lineHeight:1.75,fontSize:18,maxWidth:860}}>Bring one finance file or scenario. We prepare a reviewable model pack and keep live execution, billing, and database writes blocked.</p><div style={{display:"flex",gap:12,flexWrap:"wrap"}}><a href="/pilot" style={{background:"#facc15",color:"#020617",padding:"14px 18px",borderRadius:999,textDecoration:"none",fontWeight:950}}>Request pilot</a><a href="/approval-flow" style={{background:"rgba(15,23,42,0.85)",color:"#f8fafc",padding:"14px 18px",border:"1px solid rgba(148,163,184,0.3)",borderRadius:999,textDecoration:"none",fontWeight:900}}>See approval flow</a></div></div></section>
     </main>
   );
 }
