@@ -1,24 +1,31 @@
-import { Header } from "../components/Header";
-import { Footer } from "../components/Footer";
+import { EvidenceConsole, FeatureGrid, PrestigePage } from "../../src/ui/finance-prestige-system";
+
+export const metadata = {
+  title: "AndyAI Finance Engine — Approval Gate",
+  description: "Human authority above automation.",
+};
 
 export default function ApprovalPage() {
   return (
-    <main className="page">
-      <Header />
-      <section className="sectionHero">
-        <span className="badge">Human Approval Gate</span>
-        <h1>AI output becomes business decision material only after human review.</h1>
-        <p className="lead">
-          Approval records are not decorative. They are the boundary between generated output and accountable decision-making.
-        </p>
-      </section>
-      <section className="panel">
-        <div className="truth">Decision options: approved · rejected · needs revision</div>
-        <p>
-          v4.0 establishes the approval data model. Later versions will connect this page to live Supabase records and authenticated reviewers.
-        </p>
-      </section>
-      <Footer />
-    </main>
+    <PrestigePage
+      active="/approval"
+      badge="Human Authority Gate"
+      title="Automation may prepare."
+      accent="Humans approve."
+      lead="Financial automation should never silently cross the line from proof into execution. Approval is a product feature, not a bureaucratic delay."
+      right={<EvidenceConsole rows={[
+        ["Authority", "human", "gold"],
+        ["Auto-execution", "blocked", "green"],
+        ["Review state", "required", "gold"],
+        ["Override record", "planned", "blue"],
+      ]} />}
+    >
+      <FeatureGrid items={[
+        ["✅", "Approval before execution", "The system can prepare results, but approval remains a deliberate human action."],
+        ["🧷", "Accountability chain", "Every approval decision should attach to an operator, context, and evidence packet."],
+        ["🚧", "Blocked automation", "No paid runtime, billing, checkout, or write execution is active on the public surface."],
+        ["📜", "Decision memory", "Future approval events become durable records in the finance workflow."],
+      ]} />
+    </PrestigePage>
   );
 }

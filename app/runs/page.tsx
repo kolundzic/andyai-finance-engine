@@ -1,33 +1,31 @@
-import { Header } from "../components/Header";
-import { Footer } from "../components/Footer";
+import { EvidenceConsole, FeatureGrid, PrestigePage } from "../../src/ui/finance-prestige-system";
 
-const runs = [
-  ["RUN-001", "Pricing output generated", "v2.0.0", "Human review required"],
-  ["RUN-002", "Scenario comparison generated", "v2.0.0", "Needs revision"],
-  ["RUN-003", "Export pack generated", "v2.0.0", "Approved"]
-];
+export const metadata = {
+  title: "AndyAI Finance Engine — Runs",
+  description: "Model runs should be traceable.",
+};
 
 export default function RunsPage() {
   return (
-    <main className="page">
-      <Header />
-      <section className="sectionHero">
-        <span className="badge">Model Runs</span>
-        <h1>Each run is evidence, not noise.</h1>
-        <p className="lead">A model run should preserve inputs, outputs, warnings, audit events, and approval status.</p>
-      </section>
-      <section className="panel">
-        <div className="metricGrid">
-          {runs.map(([id, label, version, status]) => (
-            <div className="metric" key={id}>
-              <span>{id} · {version}</span>
-              <strong>{label}</strong>
-              <p>{status}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-      <Footer />
-    </main>
+    <PrestigePage
+      active="/runs"
+      badge="Run History"
+      title="Every model run should be"
+      accent="traceable."
+      lead="A finance engine needs a memory of inputs, assumptions, warnings, output state, and approval decisions for every run."
+      right={<EvidenceConsole rows={[
+        ["Run creation", "planned", "blue"],
+        ["Input payload", "tracked", "green"],
+        ["Model output", "reviewed", "gold"],
+        ["Export package", "planned", "blue"],
+      ]} />}
+    >
+      <FeatureGrid items={[
+        ["🏁", "Run lifecycle", "Each workflow can move from input to draft output, review, approval, and export."],
+        ["🧮", "Model evidence", "Numbers should not appear alone; they need source context and reasoning trace."],
+        ["🔎", "Review surface", "The operator should see warnings and assumptions before accepting output."],
+        ["📤", "Export readiness", "Future exports can carry metadata proving how the result was produced."],
+      ]} />
+    </PrestigePage>
   );
 }
