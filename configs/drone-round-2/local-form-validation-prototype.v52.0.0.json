@@ -1,0 +1,16 @@
+{
+  "version": "52.0.0",
+  "tag": "v52.0.0",
+  "slug": "local-form-validation-prototype",
+  "title": "Local Form Validation Prototype",
+  "route": "/local-validation",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Validation remains local and non-persistent."
+}
