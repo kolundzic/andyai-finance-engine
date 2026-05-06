@@ -370,3 +370,9 @@ Adds verification script for TAPFORGE migration pack files and JSON manifests.
 ## v8.8.0 — Supabase Free Lab Seed Policy
 
 Adds seed-data policy for a Supabase Free lab. No seed data is inserted.
+
+---
+
+## v8.9.0 — v9 TAPFORGE Handoff Readiness
+
+Adds readiness checklist for v9.0.0 TAPFORGE Migration Orchestration Gate.
