@@ -1,0 +1,23 @@
+{
+  "version": "15.4.0",
+  "cards": [
+    {
+      "id": "simple-product-explanation",
+      "title": "Simple Product Explanation",
+      "safe_prompt": "Explain AndyAI Finance Engine to a non-technical business owner.",
+      "boundary": "No execution. No financial advice. No database write."
+    },
+    {
+      "id": "proof-explanation",
+      "title": "Proof Explanation",
+      "safe_prompt": "Explain read-only proof and why mutation is blocked.",
+      "boundary": "No provider call. Static explanation only."
+    },
+    {
+      "id": "client-pilot",
+      "title": "Client Pilot Conversation",
+      "safe_prompt": "Explain what a safe pilot could look like.",
+      "boundary": "No sales claim beyond current proof."
+    }
+  ]
+}
