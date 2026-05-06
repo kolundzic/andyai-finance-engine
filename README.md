@@ -140,3 +140,9 @@ Adds draft Supabase quota tables for quota policies, usage events, and quota win
 ## v5.5.0 — Audit and Approval Tables Draft
 
 Adds draft Supabase tables for audit events, approval decisions, export records, and manual review queue.
+
+---
+
+## v5.6.0 — RLS Policy Draft
+
+Adds a first conservative Row-Level Security draft for Supabase monetization tables. Draft only; review required before live use.
