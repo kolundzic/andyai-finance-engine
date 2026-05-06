@@ -152,3 +152,22 @@ Adds a first conservative Row-Level Security draft for Supabase monetization tab
 ## v5.7.0 — Supabase Env and Setup Guide
 
 Adds Supabase environment setup guidance and . No live Supabase runtime behavior is introduced.
+
+---
+
+## v5.8.0 — Local Verification Script
+
+Adds 🟢 AndyAI Finance Engine — Supabase Monetization Foundation Verification
+🟢 Found: docs/supabase/SUPABASE_MONETIZATION_SETUP_READINESS_v5.2.0.md
+🟢 Found: docs/supabase/MEMBERSHIP_TABLES_DRAFT_v5.3.0.md
+🟢 Found: docs/supabase/USAGE_QUOTA_TABLES_DRAFT_v5.4.0.md
+🟢 Found: docs/supabase/AUDIT_APPROVAL_TABLES_DRAFT_v5.5.0.md
+🟢 Found: docs/supabase/RLS_POLICY_DRAFT_v5.6.0.md
+🟢 Found: docs/supabase/SUPABASE_ENV_SETUP_GUIDE_v5.7.0.md
+🟢 Found: docs/supabase/sql-drafts/v5.3.0_membership_tables_draft.sql
+🟢 Found: docs/supabase/sql-drafts/v5.4.0_usage_quota_tables_draft.sql
+🟢 Found: docs/supabase/sql-drafts/v5.5.0_audit_approval_tables_draft.sql
+🟢 Found: docs/supabase/sql-drafts/v5.6.0_rls_policy_draft.sql
+🟢 Found: .env.example
+🟢 No tracked .env.local detected
+🟢 Verification complete to verify required Supabase monetization foundation files locally.
