@@ -1,0 +1,23 @@
+{
+  "contract": "tapforge_apply_dry_run",
+  "contract_version": "8.4.0",
+  "required_checks": [
+    "source_tag_match",
+    "manifest_valid",
+    "migration_order_valid",
+    "env_guard_passed",
+    "rls_review_recorded",
+    "operator_approval_present",
+    "secret_hygiene_passed",
+    "target_mode_confirmed"
+  ],
+  "allowed_results": [
+    "ready",
+    "blocked",
+    "needs_review",
+    "warning",
+    "skipped"
+  ],
+  "production_apply_allowed": false,
+  "free_lab_apply_allowed_after_review": true
+}

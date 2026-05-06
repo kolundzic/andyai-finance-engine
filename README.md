@@ -340,3 +340,9 @@ Adds the TAPFORGE migration pack manifest. Finance Engine remains source-of-trut
 ## v8.3.0 — Finance Engine Migration Import Contract
 
 Defines how TAPFORGE may import Finance Engine migration material without becoming a duplicate source of truth.
+
+---
+
+## v8.4.0 — TAPFORGE Apply Dry Run Contract
+
+Adds the dry-run contract required before TAPFORGE applies any Finance Engine migration pack.
