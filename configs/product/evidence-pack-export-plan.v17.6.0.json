@@ -1,0 +1,12 @@
+{
+  "version": "17.6.0",
+  "export_pack_sections": [
+    "business_input_summary",
+    "assumptions_register",
+    "risk_warnings",
+    "model_workflow_map",
+    "approval_checklist",
+    "next_step_recommendation"
+  ],
+  "runtime_export_enabled": false
+}
