@@ -553,3 +553,25 @@ Preview is not apply.
 The preview uses `fe_` table names and ends with `ROLLBACK`.
 
 No SQL apply happens in v9.8.0.
+
+---
+
+## v9.9.0 — Lab-Only Apply Script Candidate
+
+This checkpoint prepares a guarded lab-only SQL apply candidate.
+
+### Rule
+
+The TAP release does not apply SQL.
+
+The candidate script is disabled by default and requires:
+
+- explicit environment gate
+- exact confirmation phrase
+- strict env guard
+- smoke test
+- prefixed preview verifier
+- candidate verifier
+- reviewed lab-only DB URL
+
+A loaded tool is not a fired tool.
