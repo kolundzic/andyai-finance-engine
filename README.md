@@ -504,3 +504,17 @@ Dry-run is not apply.
 Dry-run creates a reviewable SQL preview bundle and evidence template.
 
 No database mutation is performed.
+
+---
+
+## v9.6.0 — Supabase Lab SQL Apply Candidate Gate
+
+This checkpoint adds the candidate gate before any future lab-only SQL apply script may be prepared.
+
+### Rule
+
+A candidate gate is not permission.
+
+It is a controlled pause before permission can even be discussed.
+
+No SQL apply happens in v9.6.0.
