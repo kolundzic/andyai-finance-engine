@@ -1,0 +1,16 @@
+{
+  "version": "78.0.0",
+  "tag": "v78.0.0",
+  "slug": "enterprise-pilot-governance-pack",
+  "title": "Enterprise Pilot Governance Pack",
+  "route": "/enterprise-governance",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Enterprise governance is mapped."
+}
