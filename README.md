@@ -189,3 +189,9 @@ Completes the Supabase monetization foundation at documentation and schema-draft
 ## v6.1.0 — Runtime Contract Types
 
 Adds provider-neutral TypeScript contract types for future Supabase runtime work. No live database or billing behavior is active.
+
+---
+
+## v6.2.0 — Membership Repository Interface
+
+Adds a future-facing membership repository interface for workspace access state. Interface only; no live Supabase calls.
