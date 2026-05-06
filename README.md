@@ -490,3 +490,17 @@ No migration apply before:
 - human operator approval
 
 Migration review is the firewall between a useful lab and a damaged database.
+
+---
+
+## v9.5.0 — Supabase Lab Dry-Run Migration Plan
+
+This checkpoint adds the dry-run migration plan before any Supabase Lab SQL apply is considered.
+
+### Rule
+
+Dry-run is not apply.
+
+Dry-run creates a reviewable SQL preview bundle and evidence template.
+
+No database mutation is performed.
