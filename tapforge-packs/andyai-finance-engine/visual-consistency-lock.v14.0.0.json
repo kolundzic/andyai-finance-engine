@@ -1,0 +1,28 @@
+{
+  "pack": "andyai-finance-engine",
+  "version": "14.0.0",
+  "domain": "finance.andyai.ai",
+  "lock": "visual_consistency",
+  "covered_routes": [
+    "/",
+    "/finance-proof",
+    "/proof",
+    "/supabase",
+    "/audit",
+    "/approval",
+    "/runs",
+    "/projects",
+    "/workflow",
+    "/demo",
+    "/library"
+  ],
+  "local_build_skipped": true,
+  "vercel_clean_build_handoff": true,
+  "database_writes_allowed": false,
+  "db_url_exposure_allowed": false,
+  "service_role_exposure_allowed": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "webhooks_allowed": false,
+  "next_recommended_line": "v14.1.0 — Talk Layer Candidate"
+}
