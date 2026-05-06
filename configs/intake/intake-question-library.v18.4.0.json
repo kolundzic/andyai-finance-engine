@@ -1,0 +1,26 @@
+{
+  "version": "18.4.0",
+  "questions": [
+    {
+      "id": "business-context",
+      "label": "Business context",
+      "question": "What business model and decision stage should the pilot understand?"
+    },
+    {
+      "id": "financial-goal",
+      "label": "Financial goal",
+      "question": "What financial model output matters most?"
+    },
+    {
+      "id": "source-materials",
+      "label": "Source materials",
+      "question": "What documents, spreadsheets, assumptions, or notes exist now?"
+    },
+    {
+      "id": "approval-owner",
+      "label": "Approval owner",
+      "question": "Who approves assumptions and final pilot output?"
+    }
+  ],
+  "live_submit_enabled": false
+}
