@@ -1,31 +1,31 @@
-import { EvidenceConsole, FeatureGrid, PrestigePage } from "../../src/ui/finance-prestige-system";
+import { ClarityPanel, PublicProductPage, SectionGrid, TrustSignal } from "../../src/ui/public-product-shell";
 
 export const metadata = {
-  title: "AndyAI Finance Engine — Proof Hub",
-  description: "Public proof routes and safety boundaries.",
+  title: "AndyAI Finance Engine — Proof before automation.",
+  description: "A client should see what the system can explain, what is blocked, and where human review is required before anything operational happens.",
 };
 
-export default function ProofHubPage() {
+export default function Page() {
   return (
-    <PrestigePage
-      active="/finance-proof"
-      badge="Proof Hub"
-      title="Proof is not decoration."
-      accent="It is the product boundary."
-      lead="This hub maps the public proof routes and shows how the engine separates visibility from execution."
-      right={<EvidenceConsole rows={[
-        ["Main proof", "/finance-proof", "blue"],
-        ["Status API", "/api/finance/read-only/status", "blue"],
-        ["Mutation", "blocked", "green"],
-        ["Execution", "gated", "gold"],
-      ]} />}
+    <PublicProductPage
+      active="/proof"
+      eyebrow="Read-only proof surface"
+      title="Proof before automation."
+      lead="A client should see what the system can explain, what is blocked, and where human review is required before anything operational happens."
+      right={<TrustSignal rows={[
+        ["Proof mode", "Read-only public explanation", "blue"],
+        ["Hidden mutation", "Blocked from public demo", "green"],
+        ["Auditability", "Designed into the workflow", "green"],
+      ] as any} />}
     >
-      <FeatureGrid items={[
-        ["🔗", "Finance proof", "The public human-readable proof page."],
-        ["{}", "Runtime JSON", "The machine-readable status endpoint."],
-        ["🧱", "Route map", "A visible public route portfolio for client review."],
-        ["🛡️", "Safety lock", "Proof can be displayed without activating write runtime."],
-      ]} />
-    </PrestigePage>
+      <SectionGrid items={[
+          ["🔍", "Source clarity", "The workflow must show what input shaped the output."],
+          ["📌", "Assumption ledger", "Key assumptions should be visible before model use."],
+          ["🧱", "Safety boundary", "Public proof pages are not payment, write, or execution surfaces."],
+      ] as any} />
+      <ClarityPanel title="What proof means here">
+        <p>Proof means the system can explain the path from input to model preview, including assumptions, limits, and approval points.</p>
+      </ClarityPanel>
+    </PublicProductPage>
   );
 }
