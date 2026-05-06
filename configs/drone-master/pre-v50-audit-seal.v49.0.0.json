@@ -1,0 +1,17 @@
+{
+  "version": "49.0.0",
+  "tag": "v49.0.0",
+  "slug": "pre-v50-audit-seal",
+  "title": "Pre-v50 Audit Seal",
+  "route": "/v50-audit",
+  "lock": "Pre-v50 proof checkpoint is locked.",
+  "live_submit_enabled": false,
+  "network_call_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "payment_enabled": false
+}
