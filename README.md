@@ -613,3 +613,21 @@ The DB URL is secret.
 The system may check its shape and connection readiness without printing the value.
 
 No SQL is applied in v9.9.2.
+
+---
+
+## v10.0.0 — Supabase Lab First SQL Apply
+
+This checkpoint records the first guarded Supabase Lab SQL apply.
+
+### Boundary
+
+Lab-only.
+
+Production remains blocked.
+
+No billing, checkout, webhook, subscription enforcement, or paid runtime is activated.
+
+### Verified
+
+10 prefixed Finance Engine lab tables were verified after apply.

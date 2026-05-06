@@ -1,0 +1,29 @@
+{
+  "pack": "andyai-finance-engine",
+  "first_sql_apply_version": "10.0.0",
+  "source_repo": "https://github.com/kolundzic/andyai-finance-engine",
+  "source_tag": "v10.0.0",
+  "previous_gate": "v9.9.2",
+  "target_mode": "supabase_free_lab_first_apply",
+  "production_apply_allowed": false,
+  "apply_executed_by_release_tap": true,
+  "candidate_sql": "supabase/lab-apply-candidate/finance-engine-lab-apply-candidate-v9.9.0.sql",
+  "verified_table_count": 10,
+  "verified_tables": [
+    "fe_approval_decisions",
+    "fe_audit_events",
+    "fe_export_records",
+    "fe_manual_review_queue",
+    "fe_membership_states",
+    "fe_quota_policies",
+    "fe_quota_windows",
+    "fe_usage_events",
+    "fe_workspace_members",
+    "fe_workspaces"
+  ],
+  "secrets_printed": false,
+  "human_attention_boundary_targeted": false,
+  "billing_activated": false,
+  "checkout_activated": false,
+  "webhooks_activated": false
+}
