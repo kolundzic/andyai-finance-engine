@@ -1,0 +1,23 @@
+{
+  "version": "16.3.0",
+  "scenarios": [
+    {
+      "id": "first-client-call",
+      "title": "First client call",
+      "goal": "Explain the product safely in under two minutes",
+      "boundary": "No promise of production automation"
+    },
+    {
+      "id": "pilot-scope",
+      "title": "Pilot scope",
+      "goal": "Describe a safe pilot with controlled inputs and human approval",
+      "boundary": "No database writes from public routes"
+    },
+    {
+      "id": "risk-review",
+      "title": "Risk review",
+      "goal": "Explain assumptions, warnings, and approval gates",
+      "boundary": "No financial decision without human review"
+    }
+  ]
+}
