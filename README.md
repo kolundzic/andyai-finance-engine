@@ -122,3 +122,9 @@ No live database runtime, migration, checkout, webhook, payment provider, or sub
 Supabase is not just a database.
 
 In AndyAI Finance Engine, Supabase becomes the memory and governance substrate for monetized financial modeling.
+
+---
+
+## v5.3.0 — Membership Tables Draft
+
+Adds draft Supabase membership tables for workspaces, workspace members, and membership states. Draft only; no live migration is applied.
