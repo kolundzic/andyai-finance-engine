@@ -1,0 +1,10 @@
+{
+  "pack": "andyai-finance-engine",
+  "version": "17.0.0",
+  "lock": "talk_product_story",
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "provider_connected": false,
+  "database_writes_allowed": false,
+  "next_recommended_line": "v17.1.0 — Client Conversion Flow"
+}
