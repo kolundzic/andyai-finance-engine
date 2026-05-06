@@ -412,3 +412,23 @@ Protect the secrets.
 Verify the gate.
 
 Do not migrate until the system can explain what it is doing.
+
+---
+
+## v9.2.0 — Local .env Setup Assistant
+
+This checkpoint adds a local Terminal assistant for creating `.env.local` safely.
+
+### Command
+
+```bash
+./scripts/create-supabase-env-local.sh
+```
+
+### Rule
+
+Secrets stay local.
+
+The system can verify their presence without exposing their values.
+
+Do not paste service role keys into chat, README, GitHub, screenshots, logs, or public notes.
