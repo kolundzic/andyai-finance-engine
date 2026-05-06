@@ -59,35 +59,47 @@ if ! command -v curl >/dev/null 2>&1; then
   exit 1
 fi
 
-SUPABASE_REST_URL="${NEXT_PUBLIC_SUPABASE_URL%/}/rest/v1/"
+KEY_KIND="legacy_or_unknown"
+case "$NEXT_PUBLIC_SUPABASE_ANON_KEY" in
+  sb_publishable_*)
+    KEY_KIND="publishable"
+    ;;
+  eyJ*)
+    KEY_KIND="legacy_anon_jwt"
+    ;;
+esac
 
 echo "$GREEN Supabase URL loaded locally"
-echo "$YELLOW Testing REST endpoint without printing keys..."
-echo "$YELLOW Endpoint: $SUPABASE_REST_URL"
+echo "$GREEN public key kind detected: $KEY_KIND"
+echo "$YELLOW Testing Auth health endpoint without printing keys..."
+
+SUPABASE_AUTH_HEALTH_URL="${NEXT_PUBLIC_SUPABASE_URL%/}/auth/v1/health"
 
 HTTP_CODE="$(
-  curl -sS -o /tmp/andyai_supabase_smoke_response.txt \
+  curl -sS -o /tmp/andyai_supabase_auth_health_response.txt \
     -w "%{http_code}" \
-    "$SUPABASE_REST_URL" \
+    "$SUPABASE_AUTH_HEALTH_URL" \
     -H "apikey: $NEXT_PUBLIC_SUPABASE_ANON_KEY" \
-    -H "Authorization: Bearer $NEXT_PUBLIC_SUPABASE_ANON_KEY" \
     -H "Accept: application/json" || true
 )"
 
 if [ "$HTTP_CODE" = "200" ]; then
-  echo "$GREEN Supabase REST endpoint reachable with anon key"
+  echo "$GREEN Supabase Auth health endpoint reachable with public key"
   echo "$GREEN Smoke test PASS"
+  echo "$YELLOW Response preview, no secrets:"
+  head -c 500 /tmp/andyai_supabase_auth_health_response.txt 2>/dev/null || true
+  echo ""
   exit 0
 fi
 
 if [ "$HTTP_CODE" = "401" ] || [ "$HTTP_CODE" = "403" ]; then
-  echo "$RED Supabase REST endpoint rejected anon key. HTTP $HTTP_CODE"
-  echo "$YELLOW Check NEXT_PUBLIC_SUPABASE_ANON_KEY and project URL."
+  echo "$RED Supabase Auth health endpoint rejected public key. HTTP $HTTP_CODE"
+  echo "$YELLOW Check project URL and public/publishable key."
   exit 1
 fi
 
-echo "$RED Unexpected Supabase REST response. HTTP $HTTP_CODE"
+echo "$RED Unexpected Supabase Auth health response. HTTP $HTTP_CODE"
 echo "$YELLOW Response body preview:"
-head -c 500 /tmp/andyai_supabase_smoke_response.txt 2>/dev/null || true
+head -c 500 /tmp/andyai_supabase_auth_health_response.txt 2>/dev/null || true
 echo ""
 exit 1

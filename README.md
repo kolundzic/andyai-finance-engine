@@ -456,3 +456,17 @@ It does not apply migrations.
 It does not create tables.
 
 It does not prove production readiness.
+
+---
+
+## v9.3.1 — Publishable Key Smoke Test Fix
+
+This patch updates the Supabase Lab smoke test to use the Auth health endpoint:
+
+```text
+/auth/v1/health
+```
+
+The previous REST-root smoke test could return `Secret API key required` when using `sb_publishable_` keys.
+
+The smoke test now proves project reachability without requiring elevated database access.
