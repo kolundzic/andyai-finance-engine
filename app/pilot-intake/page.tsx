@@ -1,35 +1,31 @@
-import { EvidenceConsole, FeatureGrid, PrestigePage } from "../../src/ui/finance-prestige-system";
-import { StaticIntakeConsole } from "../../src/intake/static-intake-console";
+import { ClarityPanel, PublicProductPage, SectionGrid, TrustSignal } from "../../src/ui/public-product-shell";
 
 export const metadata = {
-  title: "AndyAI Finance Engine — Pilot Intake",
-  description: "Static pilot intake prototype for governed finance-model readiness.",
+  title: "AndyAI Finance Engine — Start with a controlled pilot, not blind automation.",
+  description: "The pilot path gathers business context, model goals, source material, and approval ownership before any live runtime is enabled.",
 };
 
-export default function PilotIntakePage() {
+export default function Page() {
   return (
-    <PrestigePage
-      active="/pilot-intake"
-      badge="Pilot Intake Prototype"
-      title="Collect the right context"
-      accent="before modeling starts."
-      lead="This is a static intake prototype. It demonstrates what a future client pilot intake could collect without submitting, storing, or sending data."
-      right={<EvidenceConsole rows={[
-        ["Live submit", "disabled", "green"],
-        ["Network call", "disabled", "green"],
-        ["Database write", "blocked", "green"],
-        ["Pilot readiness", "structured", "gold"],
-      ]} />}
+    <PublicProductPage
+      active="/pilot"
+      eyebrow="Pilot intake preview"
+      title="Start with a controlled pilot, not blind automation."
+      lead="The pilot path gathers business context, model goals, source material, and approval ownership before any live runtime is enabled."
+      right={<TrustSignal rows={[
+        ["Live submit", "Still disabled in public demo", "green"],
+        ["Approval owner", "Required for serious workflow", "green"],
+        ["Pilot outcome", "Reviewable model preview", "blue"],
+      ] as any} />}
     >
-      <StaticIntakeConsole />
-      <div style={{ marginTop: "28px" }}>
-        <FeatureGrid items={[
-          ["🧾", "Context first", "The intake focuses on business context before any model is drafted."],
-          ["📊", "Goal clarity", "The pilot needs to know what financial output matters most."],
-          ["🔒", "No live submit", "The current route does not submit or store any client data."],
-          ["✅", "Approval boundary", "Human review remains part of the pilot from the start."],
-        ]} />
-      </div>
-    </PrestigePage>
+      <SectionGrid items={[
+          ["1", "Business context", "Define the company, use case, and financial question."],
+          ["2", "Source material", "Prepare documents, spreadsheets, assumptions, and supporting evidence."],
+          ["3", "Review gate", "Human approval decides what moves from draft to usable output."],
+      ] as any} />
+      <ClarityPanel title="Pilot promise">
+        <p>A good pilot does not begin with automation. It begins with scope, evidence, boundaries, and a named approval owner.</p>
+      </ClarityPanel>
+    </PublicProductPage>
   );
 }

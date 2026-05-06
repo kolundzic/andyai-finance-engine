@@ -1,31 +1,31 @@
-import { EvidenceConsole, FeatureGrid, PrestigePage } from "../../src/ui/finance-prestige-system";
+import { ClarityPanel, PublicProductPage, SectionGrid, TrustSignal } from "../../src/ui/public-product-shell";
 
 export const metadata = {
-  title: "AndyAI Finance Engine — Pilot",
-  description: "Governed Finance Model Readiness Pilot.",
+  title: "AndyAI Finance Engine — Start with a controlled pilot, not blind automation.",
+  description: "The pilot path gathers business context, model goals, source material, and approval ownership before any live runtime is enabled.",
 };
 
-export default function PilotPage() {
+export default function Page() {
   return (
-    <PrestigePage
+    <PublicProductPage
       active="/pilot"
-      badge="Pilot Offer"
-      title="Governed Finance Model"
-      accent="Readiness Pilot."
-      lead="A controlled pilot for teams that need reviewable financial-model workflows, assumption visibility, and human approval before automation."
-      right={<EvidenceConsole rows={[
-        ["Pilot type", "readiness", "blue"],
-        ["Production writes", "blocked", "green"],
-        ["Approval", "required", "gold"],
-        ["Deliverable", "evidence pack", "blue"],
-      ]} />}
+      eyebrow="Pilot intake preview"
+      title="Start with a controlled pilot, not blind automation."
+      lead="The pilot path gathers business context, model goals, source material, and approval ownership before any live runtime is enabled."
+      right={<TrustSignal rows={[
+        ["Live submit", "Still disabled in public demo", "green"],
+        ["Approval owner", "Required for serious workflow", "green"],
+        ["Pilot outcome", "Reviewable model preview", "blue"],
+      ] as any} />}
     >
-      <FeatureGrid items={[
-        ["01", "Intake", "Collect business context, inputs, assumptions, and desired model output."],
-        ["02", "Workflow map", "Define how input becomes draft model, evidence, approval, and export."],
-        ["03", "Risk review", "Surface weak assumptions, missing inputs, and unsafe automation points."],
-        ["04", "Pilot memo", "Deliver a clear readiness memo and next-step recommendation."],
-      ]} />
-    </PrestigePage>
+      <SectionGrid items={[
+          ["1", "Business context", "Define the company, use case, and financial question."],
+          ["2", "Source material", "Prepare documents, spreadsheets, assumptions, and supporting evidence."],
+          ["3", "Review gate", "Human approval decides what moves from draft to usable output."],
+      ] as any} />
+      <ClarityPanel title="Pilot promise">
+        <p>A good pilot does not begin with automation. It begins with scope, evidence, boundaries, and a named approval owner.</p>
+      </ClarityPanel>
+    </PublicProductPage>
   );
 }
