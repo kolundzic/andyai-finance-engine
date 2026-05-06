@@ -128,3 +128,9 @@ In AndyAI Finance Engine, Supabase becomes the memory and governance substrate f
 ## v5.3.0 — Membership Tables Draft
 
 Adds draft Supabase membership tables for workspaces, workspace members, and membership states. Draft only; no live migration is applied.
+
+---
+
+## v5.4.0 — Usage Quota Tables Draft
+
+Adds draft Supabase quota tables for quota policies, usage events, and quota windows. Draft only; no runtime enforcement is active.
