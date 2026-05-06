@@ -1,0 +1,16 @@
+{
+  "version": "64.0.0",
+  "tag": "v64.0.0",
+  "slug": "admin-review-console-blueprint",
+  "title": "Admin Review Console Blueprint",
+  "route": "/admin-review",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Admin review is planned without admin runtime."
+}
