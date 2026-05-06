@@ -285,3 +285,9 @@ Adds RLS review gate and role matrix questions. No live RLS policy is applied.
 ## v7.7.0 — Vercel Env Sync Checklist
 
 Adds Vercel environment sync checklist for future Supabase activation. No Vercel env change is performed.
+
+---
+
+## v7.8.0 — Live Setup Verification Pack
+
+Adds combined live setup preflight verification script. It does not connect to Supabase or apply migrations.
