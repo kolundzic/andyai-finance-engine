@@ -664,3 +664,15 @@ The first runtime layer may look.
 It may not touch.
 
 Mutation, production runtime, billing, checkout, webhooks, and paid runtime remain blocked.
+
+---
+
+## v10.2.0 — Supabase Lab Read-Only Runtime Adapter Skeleton
+
+This checkpoint adds the first read-only runtime adapter skeleton after the v10.1.0 gate.
+
+### Rule
+
+The adapter skeleton can prepare read-only query plans.
+
+It cannot connect, execute, mutate, or activate production runtime.

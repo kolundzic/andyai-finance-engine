@@ -1,0 +1,30 @@
+{
+  "version": "10.2.0",
+  "mode": "supabase_lab_read_only_adapter_skeleton",
+  "connects_to_database": false,
+  "uses_db_url": false,
+  "uses_service_role_key": false,
+  "executes_queries": false,
+  "mutation_allowed": false,
+  "production_runtime_allowed": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "webhooks_allowed": false,
+  "paid_runtime_allowed": false,
+  "code_files": [
+    "src/runtime/supabase-lab-read-only-tables.ts",
+    "src/runtime/supabase-lab-read-only-adapter.ts"
+  ],
+  "allowed_tables": [
+    "fe_approval_decisions",
+    "fe_audit_events",
+    "fe_export_records",
+    "fe_manual_review_queue",
+    "fe_membership_states",
+    "fe_quota_policies",
+    "fe_quota_windows",
+    "fe_usage_events",
+    "fe_workspace_members",
+    "fe_workspaces"
+  ]
+}
