@@ -1,35 +1,31 @@
-import { Header } from "../components/Header";
-import { Footer } from "../components/Footer";
+import { EvidenceConsole, FeatureGrid, PrestigePage } from "../../src/ui/finance-prestige-system";
 
-const solutions = [
-  ["SaaS Pricing Simulator", "Pricing tiers, MRR, ARR, churn, and profit logic."],
-  ["Investor Model Pack", "Investor-ready summary, assumptions, and key metrics."],
-  ["Agency Proposal Calculator", "Scoped fees, timelines, margin, and profitability."],
-  ["Business Plan Forecast", "3–5 year forecast structure for founders and small businesses."],
-  ["Cost Governance Report", "Cost drivers, margin leaks, and improvement opportunities."],
-  ["Scenario Engine", "Conservative, base, and optimistic outcomes compared clearly."]
-];
+export const metadata = {
+  title: "AndyAI Finance Engine — Library",
+  description: "Templates, proof packs, and finance knowledge assets.",
+};
 
 export default function LibraryPage() {
   return (
-    <main className="page">
-      <Header />
-      <section className="sectionHero">
-        <span className="badge">Finance Solutions Library</span>
-        <h1>Ready-made demos and key-in-hand know-how.</h1>
-        <p className="lead">
-          The future product library will package practical financial workflows for real business decisions.
-        </p>
-      </section>
-      <section className="grid">
-        {solutions.map(([title, text]) => (
-          <article className="card" key={title}>
-            <h2>{title}</h2>
-            <p>{text}</p>
-          </article>
-        ))}
-      </section>
-      <Footer />
-    </main>
+    <PrestigePage
+      active="/library"
+      badge="Library"
+      title="Finance templates need"
+      accent="proof memory."
+      lead="The library will hold reusable model patterns, client explanation templates, proof packs, and governance documents."
+      right={<EvidenceConsole rows={[
+        ["Templates", "planned", "blue"],
+        ["Docs", "growing", "green"],
+        ["Proof packs", "planned", "gold"],
+        ["Client explainers", "next", "gold"],
+      ]} />}
+    >
+      <FeatureGrid items={[
+        ["📚", "Model templates", "Reusable SaaS, agency, service, and project finance model structures."],
+        ["🧾", "Proof packs", "Standard evidence packages for investor, client, and internal review."],
+        ["🧠", "Knowledge assets", "Glossaries, tutorials, and guides for non-technical users."],
+        ["🏷️", "Offer assets", "Client-facing language for productized finance-engine services."],
+      ]} />
+    </PrestigePage>
   );
 }

@@ -1,33 +1,32 @@
-import { Header } from "../components/Header";
-import { Footer } from "../components/Footer";
-import { WorkflowSteps } from "../components/WorkflowSteps";
+import { EvidenceConsole, FeatureGrid, PrestigePage } from "../../src/ui/finance-prestige-system";
+
+export const metadata = {
+  title: "AndyAI Finance Engine — Workflow",
+  description: "From business input to governed model output.",
+};
 
 export default function WorkflowPage() {
   return (
-    <main className="page">
-      <Header />
-      <section className="sectionHero">
-        <span className="badge">Governed finance workflow</span>
-        <h1>From raw business input to decision-ready financial truth.</h1>
-        <p className="lead">
-          The engine is designed around speed, verification, audit trails, and human approval.
-          This is not blind AI automation. It is governed financial modeling.
-        </p>
-      </section>
-      <section className="panel wide">
-        <WorkflowSteps />
-      </section>
-      <section className="twoCol">
-        <div className="card">
-          <h2>Speed Layer</h2>
-          <p>AI accelerates extraction, summary generation, scenario creation, and export preparation.</p>
-        </div>
-        <div className="card">
-          <h2>Trust Layer</h2>
-          <p>Verification, audit trail, and human approval prevent a pretty model from becoming a false decision.</p>
-        </div>
-      </section>
-      <Footer />
-    </main>
+    <PrestigePage
+      active="/workflow"
+      badge="Workflow Map"
+      title="From business input"
+      accent="to governed output."
+      lead="The finance workflow turns documents and business ideas into structured, reviewable, evidence-backed model outputs."
+      right={<EvidenceConsole rows={[
+        ["Step 1", "input", "blue"],
+        ["Step 2", "model draft", "blue"],
+        ["Step 3", "audit", "gold"],
+        ["Step 4", "approval", "gold"],
+        ["Step 5", "export", "green"],
+      ]} />}
+    >
+      <FeatureGrid items={[
+        ["01", "Input capture", "Business data, assumptions, and source materials enter the workflow."],
+        ["02", "Model drafting", "AI helps produce structured projections and model logic."],
+        ["03", "Audit review", "Warnings, assumptions, and gaps become visible."],
+        ["04", "Approval and export", "Human review precedes any client-ready output."],
+      ]} />
+    </PrestigePage>
   );
 }
