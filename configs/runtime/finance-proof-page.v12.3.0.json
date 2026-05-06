@@ -1,0 +1,7 @@
+{
+  "version": "12.3.0",
+  "page": "/finance-proof",
+  "connects_to_database": false,
+  "mutation_allowed": false,
+  "production_runtime_allowed": false
+}
