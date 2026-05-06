@@ -1,0 +1,25 @@
+{
+  "pack": "andyai-finance-engine",
+  "version": "20.0.0",
+  "lock": "public_pilot_experience",
+  "routes": [
+    "/pilot-intake",
+    "/readiness",
+    "/client-portal",
+    "/project-brief",
+    "/evidence-preview",
+    "/proposal-preview"
+  ],
+  "live_submit_enabled": false,
+  "network_call_enabled": false,
+  "database_writes_allowed": false,
+  "login_enabled": false,
+  "account_storage_enabled": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "payment_enabled": false,
+  "provider_connected": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "next_recommended_line": "v20.1.0 — Pilot Intake Form State Prototype"
+}
