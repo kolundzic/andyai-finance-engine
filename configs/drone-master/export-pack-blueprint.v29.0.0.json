@@ -1,0 +1,17 @@
+{
+  "version": "29.0.0",
+  "tag": "v29.0.0",
+  "slug": "export-pack-blueprint",
+  "title": "Export Pack Blueprint",
+  "route": "/export-pack",
+  "lock": "Export output is planned, not activated.",
+  "live_submit_enabled": false,
+  "network_call_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "payment_enabled": false
+}
