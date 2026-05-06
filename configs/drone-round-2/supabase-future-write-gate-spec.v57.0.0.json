@@ -1,0 +1,16 @@
+{
+  "version": "57.0.0",
+  "tag": "v57.0.0",
+  "slug": "supabase-future-write-gate-spec",
+  "title": "Supabase Future Write Gate Spec",
+  "route": "/supabase-write-gate",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Write gate is specified but locked."
+}
