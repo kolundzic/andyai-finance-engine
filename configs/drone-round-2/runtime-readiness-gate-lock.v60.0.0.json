@@ -1,0 +1,16 @@
+{
+  "version": "60.0.0",
+  "tag": "v60.0.0",
+  "slug": "runtime-readiness-gate-lock",
+  "title": "Runtime Readiness Gate Lock",
+  "route": "/runtime-readiness",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Runtime readiness is sealed as planning only."
+}
