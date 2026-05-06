@@ -195,3 +195,9 @@ Adds provider-neutral TypeScript contract types for future Supabase runtime work
 ## v6.2.0 — Membership Repository Interface
 
 Adds a future-facing membership repository interface for workspace access state. Interface only; no live Supabase calls.
+
+---
+
+## v6.3.0 — Quota Runtime Interface
+
+Adds future-facing quota runtime interfaces. No live enforcement or Supabase calls are active.
