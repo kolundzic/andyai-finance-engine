@@ -1,0 +1,28 @@
+{
+  "pack": "andyai-finance-engine",
+  "read_only_runtime_foundation_lock_version": "11.0.0",
+  "source_repo": "https://github.com/kolundzic/andyai-finance-engine",
+  "source_tag": "v11.0.0",
+  "previous_runtime_stage": "v10.9.0",
+  "target_mode": "supabase_free_lab_read_only_runtime_foundation",
+  "sql_applied_by_this_release": false,
+  "connects_to_database": false,
+  "executes_queries": false,
+  "mutation_allowed": false,
+  "production_runtime_allowed": false,
+  "billing_activated": false,
+  "checkout_activated": false,
+  "webhooks_activated": false,
+  "paid_runtime_activated": false,
+  "foundation_components": [
+    "read_only_table_allowlist",
+    "read_only_adapter_skeleton",
+    "read_only_query_contract",
+    "read_only_request_builder",
+    "server_side_boundary",
+    "diagnostics_model",
+    "proof_surface_blueprint",
+    "runtime_safety_matrix"
+  ],
+  "next_recommended_line": "v11.1.0 — Server-Side Read-Only Executor Candidate Gate"
+}

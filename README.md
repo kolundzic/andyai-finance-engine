@@ -676,3 +676,17 @@ This checkpoint adds the first read-only runtime adapter skeleton after the v10.
 The adapter skeleton can prepare read-only query plans.
 
 It cannot connect, execute, mutate, or activate production runtime.
+
+---
+
+## v11.0.0 — Read-Only Runtime Foundation Lock
+
+This checkpoint locks the read-only runtime foundation after the v10.3.0 → v10.9.0 master line.
+
+### Rule
+
+The system now has eyes.
+
+The hands remain locked.
+
+No database execution, mutation, production runtime, billing, checkout, webhooks, or paid runtime is activated.
