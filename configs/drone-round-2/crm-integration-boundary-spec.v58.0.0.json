@@ -1,0 +1,16 @@
+{
+  "version": "58.0.0",
+  "tag": "v58.0.0",
+  "slug": "crm-integration-boundary-spec",
+  "title": "CRM Integration Boundary Spec",
+  "route": "/crm-boundary",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "CRM boundary is planned but disconnected."
+}
