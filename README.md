@@ -134,3 +134,9 @@ Adds draft Supabase membership tables for workspaces, workspace members, and mem
 ## v5.4.0 — Usage Quota Tables Draft
 
 Adds draft Supabase quota tables for quota policies, usage events, and quota windows. Draft only; no runtime enforcement is active.
+
+---
+
+## v5.5.0 — Audit and Approval Tables Draft
+
+Adds draft Supabase tables for audit events, approval decisions, export records, and manual review queue.
