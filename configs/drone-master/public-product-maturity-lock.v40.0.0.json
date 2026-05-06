@@ -1,0 +1,17 @@
+{
+  "version": "40.0.0",
+  "tag": "v40.0.0",
+  "slug": "public-product-maturity-lock",
+  "title": "Public Product Maturity Lock",
+  "route": "/maturity",
+  "lock": "Public product maturity is sealed.",
+  "live_submit_enabled": false,
+  "network_call_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "payment_enabled": false
+}
