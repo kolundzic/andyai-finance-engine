@@ -1,0 +1,11 @@
+{
+  "version": "11.1.0",
+  "execution_allowed": false,
+  "database_connection_allowed": false,
+  "mutation_allowed": false,
+  "production_runtime_allowed": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "webhooks_allowed": false,
+  "paid_runtime_allowed": false
+}
