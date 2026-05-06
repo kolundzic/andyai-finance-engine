@@ -1,0 +1,6 @@
+{
+  "version": "12.6.0",
+  "routes": ["/finance-proof", "/api/finance/read-only/status"],
+  "mutation_allowed": false,
+  "database_connection_allowed": false
+}
