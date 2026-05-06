@@ -1,0 +1,15 @@
+{
+  "version": "15.6.0",
+  "event_types": [
+    "talk.card_selected",
+    "talk.explanation_viewed",
+    "talk.boundary_shown",
+    "talk.client_demo_step_viewed"
+  ],
+  "runtime_boundary": {
+    "external_ai_call_enabled": false,
+    "microphone_enabled": false,
+    "recording_enabled": false,
+    "database_writes_allowed": false
+  }
+}
