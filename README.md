@@ -631,3 +631,22 @@ No billing, checkout, webhook, subscription enforcement, or paid runtime is acti
 ### Verified
 
 10 prefixed Finance Engine lab tables were verified after apply.
+
+---
+
+## v10.0.1 — Post-Apply Seal and Safety Evidence
+
+This checkpoint seals the v10.0.0 first Supabase Lab SQL apply evidence.
+
+### Rule
+
+v10.0.1 does not apply SQL.
+
+It records and verifies the post-apply safety boundary:
+
+- production remains blocked
+- billing remains blocked
+- checkout remains blocked
+- webhooks remain blocked
+- paid runtime remains blocked
+- DB URL and service secrets are not stored

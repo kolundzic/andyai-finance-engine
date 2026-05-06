@@ -1,0 +1,34 @@
+{
+  "pack": "andyai-finance-engine",
+  "post_apply_seal_version": "10.0.1",
+  "source_repo": "https://github.com/kolundzic/andyai-finance-engine",
+  "source_tag": "v10.0.1",
+  "previous_apply_tag": "v10.0.0",
+  "target_mode": "supabase_free_lab_post_apply_seal",
+  "sql_applied_by_this_release": false,
+  "production_apply_allowed": false,
+  "billing_activated": false,
+  "checkout_activated": false,
+  "webhooks_activated": false,
+  "paid_runtime_activated": false,
+  "verified_previous_table_count": 10,
+  "verified_previous_tables": [
+    "fe_approval_decisions",
+    "fe_audit_events",
+    "fe_export_records",
+    "fe_manual_review_queue",
+    "fe_membership_states",
+    "fe_quota_policies",
+    "fe_quota_windows",
+    "fe_usage_events",
+    "fe_workspace_members",
+    "fe_workspaces"
+  ],
+  "secret_storage": {
+    "db_url_in_repo": false,
+    "database_password_in_repo": false,
+    "service_role_key_in_repo": false,
+    "env_local_tracked": false
+  },
+  "next_recommended_line": "v10.1.0 — Supabase Lab Read-Only Runtime Wiring Gate"
+}
