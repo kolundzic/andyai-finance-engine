@@ -58,3 +58,42 @@ v1.0.0 = stable canon
 v2.0.0 = working core  
 v3.0.0 = public showcase  
 v4.0.0 = Supabase SaaS foundation
+
+---
+
+## v5.1.0 — Public Product Positioning Layer
+
+AndyAI Finance Engine is a governed financial modeling workspace for founders, consultants, agencies, and business teams.
+
+It helps transform business inputs, assumptions, pricing ideas, SaaS scenarios, investor logic, and operational plans into structured financial model drafts.
+
+### Core Promise
+
+Build financial models faster, but keep responsibility visible.
+
+Financial modeling can be automated.  
+Financial responsibility cannot be outsourced.
+
+### Trust-First Position
+
+AndyAI Finance Engine is not only about generating numbers.
+
+It is designed around:
+
+- assumption visibility
+- human approval
+- audit trail
+- review status
+- export safety
+- monetization boundaries
+- provider-neutral billing design
+
+### Monetization Status
+
+v5.1.0 is not a live billing release.
+
+No checkout route, webhook, payment provider SDK, subscription enforcement, payment secret, or paid export runtime is active.
+
+### Next Direction
+
+The next major line is Supabase monetization setup: database-backed membership, quota, audit, and approval foundations.
