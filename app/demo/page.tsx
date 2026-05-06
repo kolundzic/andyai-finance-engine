@@ -1,31 +1,32 @@
-import { EvidenceConsole, FeatureGrid, PrestigePage } from "../../src/ui/finance-prestige-system";
+import { ClarityPanel, PublicProductPage, SectionGrid, TrustSignal } from "../../src/ui/public-product-shell";
 
 export const metadata = {
-  title: "AndyAI Finance Engine — Demo",
-  description: "A public product story for governed financial modeling.",
+  title: "AndyAI Finance Engine — One concrete story beats thirty abstract pages.",
+  description: "A sample balance sheet or spreadsheet becomes a governed model preview with assumptions, evidence, and a human approval checkpoint.",
 };
 
-export default function DemoPage() {
+export default function Page() {
   return (
-    <PrestigePage
+    <PublicProductPage
       active="/demo"
-      badge="Demo Surface"
-      title="A product that explains"
-      accent="its own safeguards."
-      lead="The demo layer shows what the engine does, what it refuses to do, and where the human remains in control."
-      right={<EvidenceConsole rows={[
-        ["Demo mode", "public", "blue"],
-        ["Live writes", "blocked", "green"],
-        ["Secrets", "not exposed", "green"],
-        ["Client-ready", "next", "gold"],
-      ]} />}
+      eyebrow="Demo scenario"
+      title="One concrete story beats thirty abstract pages."
+      lead="A sample balance sheet or spreadsheet becomes a governed model preview with assumptions, evidence, and a human approval checkpoint."
+      right={<TrustSignal rows={[
+        ["Sample input", "Demo only", "blue"],
+        ["Model output", "Preview only", "green"],
+        ["Approval", "Human required", "green"],
+      ] as any} />}
     >
-      <FeatureGrid items={[
-        ["🎬", "Guided story", "The public demo can explain the engine before a sales call."],
-        ["🛡️", "Safety first", "The strongest claim is not speed; it is controlled execution."],
-        ["📊", "Finance logic", "The product is built around business evidence, not generic chatbot output."],
-        ["🗣️", "Talk layer ready", "Future voice/talk features can explain the proof surface like a human guide."],
-      ]} />
-    </PrestigePage>
+      <SectionGrid items={[
+          ["📥", "Input", "A sample balance sheet, CSV, or business plan enters the workflow."],
+          ["🧠", "Model preview", "The system proposes structure, assumptions, and financial logic."],
+          ["🧾", "Evidence pack", "Sources, assumptions, warnings, and review notes travel with the output."],
+          ["✅", "Approval gate", "A human decides whether the result can be used."],
+      ] as any} />
+      <ClarityPanel title="Demo rule">
+        <p>The demo must show what the engine does without pretending that production automation is already unlocked.</p>
+      </ClarityPanel>
+    </PublicProductPage>
   );
 }
