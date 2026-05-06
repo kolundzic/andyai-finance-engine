@@ -249,3 +249,9 @@ Completes the governed Supabase runtime foundation at contract and verification 
 ## v7.1.0 — Supabase Live Setup Boundary
 
 Defines the boundary between repository preparation and real Supabase setup. Real setup should start after v8.0.0.
+
+---
+
+## v7.2.0 — Migration Bundle Map
+
+Adds a migration bundle map and placeholder folder for future reviewed Supabase migrations. No migration is applied.
