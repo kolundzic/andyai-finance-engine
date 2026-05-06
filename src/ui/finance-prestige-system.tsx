@@ -36,6 +36,7 @@ export const navItems = [
   ["Home", "/"],
   ["Proof", "/finance-proof"],
   ["Talk", "/talk"],
+  ["Talk UI", "/talk-interaction"],
   ["Routes", "/routes"],
   ["Supabase", "/supabase"],
   ["Audit", "/audit"],
