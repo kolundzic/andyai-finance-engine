@@ -518,3 +518,24 @@ A candidate gate is not permission.
 It is a controlled pause before permission can even be discussed.
 
 No SQL apply happens in v9.6.0.
+
+---
+
+## v9.7.0 — Supabase Lab Namespace Decision Lock
+
+This checkpoint locks the namespace decision for the shared Supabase Free lab.
+
+### Decision
+
+Use prefix-based isolation first:
+
+- `fe_` for Finance Engine
+- `tf_` for TAPFORGE
+- `audit_` for shared audit
+- existing Human Attention tables remain protected and untouched
+
+### Rule
+
+No prefix lock, no apply.
+
+No SQL apply happens in v9.7.0.

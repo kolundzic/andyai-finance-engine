@@ -1,0 +1,36 @@
+{
+  "pack": "andyai-finance-engine",
+  "namespace_decision_lock_version": "9.7.0",
+  "source_repo": "https://github.com/kolundzic/andyai-finance-engine",
+  "source_tag": "v9.7.0",
+  "target_mode": "shared_supabase_free_lab_prefix_isolation",
+  "custom_schema_strategy": "deferred",
+  "prefix_strategy": "locked",
+  "migration_apply_allowed": false,
+  "production_apply_allowed": false,
+  "locked_prefixes": {
+    "finance_engine": "fe_",
+    "tapforge": "tf_",
+    "shared_audit": "audit_",
+    "human_attention": "human_attention_"
+  },
+  "protected_boundaries": [
+    "existing_human_attention_tables",
+    "secrets",
+    "production_runtime",
+    "paid_runtime",
+    "checkout",
+    "webhooks"
+  ],
+  "requires_next": {
+    "prefixed_sql_preview_bundle": true,
+    "prefix_verifier": true,
+    "rls_review_after_prefix_transform": true,
+    "human_operator_approval": true
+  },
+  "decision_states": [
+    "blocked",
+    "needs_prefix_revision",
+    "prefix_lock_accepted_for_lab_apply_candidate"
+  ]
+}
