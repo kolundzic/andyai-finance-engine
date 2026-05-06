@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "136.0.0",
+  "title": "Assumptions Ledger UI Master",
+  "title_sr": "Master UI za registar pretpostavki",
+  "route": "/assumptions-ledger-ui",
+  "standard": "TAP-TAP UI/product clarity milestone"
+}
