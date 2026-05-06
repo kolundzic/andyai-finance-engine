@@ -213,3 +213,9 @@ Adds future-facing audit and approval runtime interfaces. Interface only; no liv
 ## v6.5.0 — Export Safety Gate
 
 Adds a pure local export safety gate for future export workflows. No paid export runtime is active.
+
+---
+
+## v6.6.0 — Manual Review Runtime Interface
+
+Adds future-facing manual review runtime interfaces. Interface only; no live queue writes.
