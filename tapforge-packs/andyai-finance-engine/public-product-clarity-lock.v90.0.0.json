@@ -1,0 +1,28 @@
+{
+  "pack": "andyai-finance-engine",
+  "version": "90.0.0",
+  "lock": "public_product_clarity",
+  "client_path": [
+    "Home",
+    "Proof",
+    "Pilot"
+  ],
+  "public_navigation": [
+    "Home",
+    "Proof",
+    "Pilot",
+    "Pricing",
+    "Trust",
+    "Roadmap",
+    "Talk"
+  ],
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "next_recommended_line": "v90.1.0 — Concrete Demo Data Pack"
+}
