@@ -575,3 +575,21 @@ The candidate script is disabled by default and requires:
 - reviewed lab-only DB URL
 
 A loaded tool is not a fired tool.
+
+---
+
+## v9.9.1 — Lab Apply Tooling Preflight
+
+This checkpoint adds tooling preflight checks before any future lab-only SQL apply attempt.
+
+### Command
+
+```bash
+./scripts/check-lab-apply-tooling-preflight.sh
+```
+
+### Rule
+
+Tooling readiness is not apply permission.
+
+No SQL is applied in v9.9.1.
