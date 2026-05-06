@@ -1,0 +1,20 @@
+{
+  "pack": "andyai-finance-engine",
+  "version": "120.0.0",
+  "lock": "screenshot_mockups_demo_gallery",
+  "routes": [
+    "/",
+    "/value-demo",
+    "/model-preview",
+    "/approval-flow",
+    "/before-after",
+    "/demo-gallery",
+    "/pilot"
+  ],
+  "assets_dir": "public/demo",
+  "live_execution_enabled": false,
+  "database_writes_allowed": false,
+  "billing_enabled": false,
+  "checkout_enabled": false,
+  "next_recommended_line": "v120.1.0 \u2014 Live Pilot Request Capture Master"
+}
