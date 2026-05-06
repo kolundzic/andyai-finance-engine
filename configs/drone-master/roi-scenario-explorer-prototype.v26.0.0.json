@@ -1,0 +1,17 @@
+{
+  "version": "26.0.0",
+  "tag": "v26.0.0",
+  "slug": "roi-scenario-explorer-prototype",
+  "title": "ROI Scenario Explorer Prototype",
+  "route": "/roi-scenarios",
+  "lock": "ROI logic becomes visible without calculator runtime.",
+  "live_submit_enabled": false,
+  "network_call_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "payment_enabled": false
+}
