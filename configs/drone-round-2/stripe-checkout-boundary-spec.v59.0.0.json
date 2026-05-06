@@ -1,0 +1,16 @@
+{
+  "version": "59.0.0",
+  "tag": "v59.0.0",
+  "slug": "stripe-checkout-boundary-spec",
+  "title": "Stripe Checkout Boundary Spec",
+  "route": "/checkout-boundary",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Checkout remains blocked."
+}
