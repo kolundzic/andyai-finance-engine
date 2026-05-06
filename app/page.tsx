@@ -42,6 +42,19 @@ export default function Page() {
       <h3 style={{marginTop:0,marginBottom:10,fontSize:24,letterSpacing:"-0.04em"}}>What stays blocked</h3>
       <p style={{margin:0,color:"#cbd5e1",lineHeight:1.75,fontSize:16}}>Live writes, billing, provider calls, and autonomous execution stay blocked until explicitly enabled later.</p>
     </section></section><section style={{maxWidth:1180,margin:"0 auto",padding:"20px 20px 90px"}}><div style={{border:"1px solid rgba(250,204,21,0.30)",background:"linear-gradient(135deg,rgba(250,204,21,0.10),rgba(15,23,42,0.82))",borderRadius:28,padding:26,display:"grid",gap:12}}><p style={{margin:0,color:"#facc15",fontWeight:950,letterSpacing:"0.14em",textTransform:"uppercase",fontSize:12}}>Pilot CTA</p><h2 style={{margin:0,fontSize:"clamp(28px,5vw,46px)",letterSpacing:"-0.05em"}}>Request a pilot run — no payment, no automation, human review included.</h2><p style={{margin:0,color:"#dbeafe",lineHeight:1.75,fontSize:18,maxWidth:860}}>Use the screenshots as proof of the output shape, then move to the pilot request page when you want your own finance files transformed into a reviewable model pack.</p><div style={{display:"flex",gap:12,flexWrap:"wrap"}}><a href="/pilot" style={{background:"#facc15",color:"#020617",padding:"14px 18px",borderRadius:999,textDecoration:"none",fontWeight:950}}>Request pilot</a><a href="/demo-gallery" style={{background:"rgba(15,23,42,0.85)",color:"#f8fafc",padding:"14px 18px",borderRadius:999,border:"1px solid rgba(148,163,184,0.30)",textDecoration:"none",fontWeight:900}}>Browse gallery</a></div></div></section>
-    </main>
+    
+<section className="mt-10 rounded-3xl border border-emerald-400/30 bg-emerald-400/10 p-6">
+  <p className="text-sm font-semibold uppercase tracking-[0.25em] text-emerald-300">Pilot request</p>
+  <h2 className="mt-3 text-2xl font-bold text-slate-50">Want to test this on a real finance workflow?</h2>
+  <p className="mt-3 text-slate-300">
+    Start a controlled pilot with source materials, assumptions, human approval, and an evidence pack.
+  </p>
+  <div className="mt-5 flex flex-wrap gap-3">
+    <a href="/pilot-request" className="rounded-full bg-emerald-300 px-5 py-3 text-sm font-bold text-slate-950">Request Early Access</a>
+    <a href="/demo-gallery" className="rounded-full border border-slate-600 px-5 py-3 text-sm font-bold text-slate-100">View Demo Gallery</a>
+  </div>
+</section>
+
+</main>
   );
 }
