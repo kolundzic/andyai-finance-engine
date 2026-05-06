@@ -1,0 +1,16 @@
+{
+  "version": "79.0.0",
+  "tag": "v79.0.0",
+  "slug": "pre-v80-audit-seal",
+  "title": "Pre-v80 Audit Seal",
+  "route": "/pre-v80-audit",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Pre-v80 proof is sealed."
+}
