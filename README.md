@@ -183,3 +183,9 @@ Defines future runtime wiring requirements for server-side Supabase access, memb
 ## v6.0.0 — Supabase Monetization Runtime Foundation
 
 Completes the Supabase monetization foundation at documentation and schema-draft level. No live database runtime or payment behavior is activated.
+
+---
+
+## v6.1.0 — Runtime Contract Types
+
+Adds provider-neutral TypeScript contract types for future Supabase runtime work. No live database or billing behavior is active.
