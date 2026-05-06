@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "139.0.0",
+  "title": "Human Approval UI Master",
+  "title_sr": "Master UI za ljudsko odobrenje",
+  "route": "/human-approval-ui",
+  "standard": "TAP-TAP UI/product clarity milestone"
+}
