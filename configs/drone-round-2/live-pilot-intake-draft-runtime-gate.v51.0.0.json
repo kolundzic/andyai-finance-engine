@@ -1,0 +1,16 @@
+{
+  "version": "51.0.0",
+  "tag": "v51.0.0",
+  "slug": "live-pilot-intake-draft-runtime-gate",
+  "title": "Live Pilot Intake Draft Runtime Gate",
+  "route": "/runtime-gate",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Runtime gate is described, not activated."
+}
