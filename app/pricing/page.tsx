@@ -1,32 +1,31 @@
-import { EvidenceConsole, FeatureGrid, PrestigePage } from "../../src/ui/finance-prestige-system";
+import { ClarityPanel, PublicProductPage, SectionGrid, TrustSignal } from "../../src/ui/public-product-shell";
 
 export const metadata = {
-  title: "AndyAI Finance Engine — Offer and Pricing Static Pack Lock",
-  description: "Adds static offer and pricing explanation while keeping checkout blocked.",
+  title: "AndyAI Finance Engine — Clear packages without checkout risk.",
+  description: "Pricing is presented as pilot-oriented packages. Checkout and payment remain blocked until a later approved runtime gate.",
 };
 
 export default function Page() {
   return (
-    <PrestigePage
+    <PublicProductPage
       active="/pricing"
-      badge="v25.0.0"
-      title="Offer and Pricing Static Pack Lock"
-      accent="safe public surface."
-      lead="Adds static offer and pricing explanation while keeping checkout blocked."
-      right={<EvidenceConsole rows={[
-        ["Route", "/pricing", "blue"],
-        ["Mode", "static preview", "green"],
-        ["Live submit", "disabled", "green"],
-        ["Database writes", "blocked", "green"],
-        ["Payment", "blocked", "green"],
+      eyebrow="Static pricing packages"
+      title="Clear packages without checkout risk."
+      lead="Pricing is presented as pilot-oriented packages. Checkout and payment remain blocked until a later approved runtime gate."
+      right={<TrustSignal rows={[
+        ["Checkout", "Not enabled", "green"],
+        ["Payment", "Not enabled", "green"],
+        ["Sales motion", "Pilot conversation first", "blue"],
       ] as any} />}
     >
-      <FeatureGrid items={[
-        ["🧭", "Purpose", "Adds static offer and pricing explanation while keeping checkout blocked."],
-        ["🛡️", "Boundary", "This route is a static public surface with no live submit, no network call, and no database write."],
-        ["✅", "Human approval", "The system may structure and preview, but the human remains the authority gate."],
-        ["📦", "Next asset", "Pricing can be explained without payment runtime."],
+      <SectionGrid items={[
+          ["Starter Pilot", "Discovery + sample model review", "For validating one document-to-model workflow."],
+          ["Team Pilot", "Multi-source evidence workflow", "For finance teams that need structured review and approval."],
+          ["Enterprise Pilot", "Governance + audit trail design", "For regulated or higher-risk financial workflows."],
       ] as any} />
-    </PrestigePage>
+      <ClarityPanel title="Pricing rule">
+        <p>The public site may explain offer structure, but it does not process payment or create a checkout session.</p>
+      </ClarityPanel>
+    </PublicProductPage>
   );
 }
