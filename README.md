@@ -470,3 +470,23 @@ This patch updates the Supabase Lab smoke test to use the Auth health endpoint:
 The previous REST-root smoke test could return `Secret API key required` when using `sb_publishable_` keys.
 
 The smoke test now proves project reachability without requiring elevated database access.
+
+---
+
+## v9.4.0 — Supabase Lab Migration Review Pack
+
+This checkpoint adds the review pack required before any Supabase Lab migration is considered.
+
+### Rule
+
+No migration apply before:
+
+- SQL draft inventory review
+- RLS review
+- namespace decision
+- env guard
+- smoke test
+- TAPFORGE dry-run evidence
+- human operator approval
+
+Migration review is the firewall between a useful lab and a damaged database.
