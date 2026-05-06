@@ -1,0 +1,20 @@
+{
+  "version": "10.9.0",
+  "mode": "read_only_runtime_safety_matrix",
+  "runtime_source_scan": true,
+  "forbidden_patterns": [
+    "fetch(",
+    ".insert(",
+    ".update(",
+    ".delete(",
+    ".upsert(",
+    "SUPABASE_DB_URL",
+    "service_role",
+    "serviceRole"
+  ],
+  "mutation_allowed": false,
+  "production_runtime_allowed": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "webhooks_allowed": false
+}
