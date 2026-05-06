@@ -1,0 +1,11 @@
+{
+  "version": "12.8.0",
+  "online_proof_allowed": true,
+  "database_writes_allowed": false,
+  "db_url_exposure_allowed": false,
+  "service_role_exposure_allowed": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "webhooks_allowed": false,
+  "paid_runtime_allowed": false
+}
