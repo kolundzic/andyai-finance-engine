@@ -334,3 +334,9 @@ Finance Engine is the source of truth.
 ## v8.2.0 — TAPFORGE Migration Pack Manifest
 
 Adds the TAPFORGE migration pack manifest. Finance Engine remains source-of-truth; TAPFORGE is orchestrator and evidence logger.
+
+---
+
+## v8.3.0 — Finance Engine Migration Import Contract
+
+Defines how TAPFORGE may import Finance Engine migration material without becoming a duplicate source of truth.

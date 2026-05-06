@@ -1,0 +1,23 @@
+{
+  "contract": "finance_engine_migration_import",
+  "contract_version": "8.3.0",
+  "source_repo": "https://github.com/kolundzic/andyai-finance-engine",
+  "source_tag_required": "v8.3.0",
+  "tapforge_may_import": [
+    "manifest",
+    "migration_order",
+    "sql_draft_references",
+    "verification_scripts",
+    "activation_docs"
+  ],
+  "tapforge_must_not": [
+    "rewrite_schema_as_source_of_truth",
+    "apply_without_operator_approval",
+    "apply_without_rls_review",
+    "store_secrets",
+    "activate_paid_runtime"
+  ],
+  "human_approval_required": true,
+  "rls_review_required": true,
+  "dry_run_required": true
+}
