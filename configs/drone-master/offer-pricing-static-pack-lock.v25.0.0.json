@@ -1,0 +1,17 @@
+{
+  "version": "25.0.0",
+  "tag": "v25.0.0",
+  "slug": "offer-pricing-static-pack-lock",
+  "title": "Offer and Pricing Static Pack Lock",
+  "route": "/pricing",
+  "lock": "Pricing can be explained without payment runtime.",
+  "live_submit_enabled": false,
+  "network_call_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "payment_enabled": false
+}
