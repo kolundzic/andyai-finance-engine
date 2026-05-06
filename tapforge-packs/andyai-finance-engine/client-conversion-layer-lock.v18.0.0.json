@@ -1,0 +1,13 @@
+{
+  "pack": "andyai-finance-engine",
+  "version": "18.0.0",
+  "lock": "client_conversion_layer",
+  "routes": ["/lead", "/pilot", "/offers", "/case-study", "/roi"],
+  "live_form_submit_enabled": false,
+  "network_call_enabled": false,
+  "database_writes_allowed": false,
+  "billing_allowed": false,
+  "checkout_allowed": false,
+  "payment_enabled": false,
+  "next_recommended_line": "v18.1.0 — Client Pilot Intake Interaction Prototype"
+}
