@@ -1,0 +1,20 @@
+{
+  "pack": "andyai-finance-engine",
+  "version": "100.0.0",
+  "lock": "product_value_proof",
+  "value_flow": [
+    "sample input",
+    "model preview",
+    "assumptions ledger",
+    "evidence pack",
+    "approval flow",
+    "output pack"
+  ],
+  "live_upload_enabled": false,
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "next_recommended_line": "v100.1.0 \u2014 Visual Differentiation and Interaction Layer"
+}
