@@ -432,3 +432,27 @@ Secrets stay local.
 The system can verify their presence without exposing their values.
 
 Do not paste service role keys into chat, README, GitHub, screenshots, logs, or public notes.
+
+---
+
+## v9.3.0 — Supabase Lab Connection Smoke Test
+
+This checkpoint adds a local Supabase Lab connection smoke test.
+
+### Command
+
+After `.env.local` is created locally:
+
+```bash
+./scripts/smoke-test-supabase-lab-connection.sh
+```
+
+### Rule
+
+The smoke test proves connection only.
+
+It does not apply migrations.
+
+It does not create tables.
+
+It does not prove production readiness.
