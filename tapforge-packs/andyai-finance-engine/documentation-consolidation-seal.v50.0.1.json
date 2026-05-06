@@ -1,0 +1,11 @@
+{
+  "pack": "andyai-finance-engine",
+  "version": "50.0.1",
+  "lock": "documentation_consolidation_seal",
+  "purpose": "Explain the evolution from early runtime safety to public business system surface.",
+  "runtime_changes": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "payment_enabled": false,
+  "next_recommended_line": "v51.0.0 — Live Pilot Intake Draft Runtime Gate"
+}
