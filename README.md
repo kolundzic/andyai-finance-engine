@@ -382,3 +382,33 @@ Adds readiness checklist for v9.0.0 TAPFORGE Migration Orchestration Gate.
 ## v9.0.0 — TAPFORGE Migration Orchestration Gate
 
 Completes the TAPFORGE migration orchestration gate. Finance Engine defines; TAPFORGE orchestrates and records evidence. No migration is applied.
+
+---
+
+## v9.1.0 — Supabase Lab Project Setup Runbook
+
+This checkpoint adds the first safe Supabase Lab setup runbook.
+
+### Meaning
+
+The repo is ready for a human operator to create a Supabase Free lab project and configure local `.env.local` safely.
+
+### Boundary
+
+v9.1.0 does not create a Supabase project automatically.
+
+It does not add secrets.
+
+It does not apply migrations.
+
+It does not activate production database runtime.
+
+### Rule
+
+Create the lab.
+
+Protect the secrets.
+
+Verify the gate.
+
+Do not migrate until the system can explain what it is doing.
