@@ -1,0 +1,14 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "132.0.0",
+  "title": "Example in Action Master",
+  "route": "/example-in-action",
+  "design_standard": "AndyAI Visual DNA Standard",
+  "purpose": "Show a concrete finance workflow from messy input to evidence-backed output.",
+  "acceptance": [
+    "example page exists",
+    "design docs exist",
+    "build passes",
+    "tag v132.0.0 pushed"
+  ]
+}
