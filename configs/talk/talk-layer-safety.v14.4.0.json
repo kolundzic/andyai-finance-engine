@@ -1,0 +1,10 @@
+{
+  "version": "14.4.0",
+  "provider_connected": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "speech_synthesis_enabled": false,
+  "external_ai_call_enabled": false,
+  "database_writes_allowed": false,
+  "human_approval_required": true
+}
