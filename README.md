@@ -328,3 +328,9 @@ Free Supabase is a proving ground.
 TAPFORGE is the orchestrator.
 
 Finance Engine is the source of truth.
+
+---
+
+## v8.2.0 — TAPFORGE Migration Pack Manifest
+
+Adds the TAPFORGE migration pack manifest. Finance Engine remains source-of-truth; TAPFORGE is orchestrator and evidence logger.

@@ -1,0 +1,27 @@
+{
+  "pack": "andyai-finance-engine",
+  "manifest_version": "8.2.0",
+  "source_repo": "https://github.com/kolundzic/andyai-finance-engine",
+  "source_tag": "v8.2.0",
+  "mode": "supabase-free-lab",
+  "apply_migrations": false,
+  "requires_human_review": true,
+  "requires_rls_review": true,
+  "requires_env_guard": true,
+  "requires_dry_run": true,
+  "tapforge_role": "orchestrator",
+  "finance_engine_role": "source_of_truth",
+  "migration_order": [
+    "membership_tables",
+    "usage_quota_tables",
+    "audit_approval_tables",
+    "rls_policy_review"
+  ],
+  "blocked_actions": [
+    "live_production_apply",
+    "unchecked_service_role_usage",
+    "unreviewed_rls_apply",
+    "secret_commit",
+    "paid_runtime_activation"
+  ]
+}
