@@ -55,6 +55,22 @@ export default function Page() {
   </div>
 </section>
 
+
+<section className="mt-10 rounded-3xl border border-cyan-400/30 bg-cyan-400/10 p-6">
+  <p className="text-sm font-semibold uppercase tracking-[0.25em] text-cyan-300">Financial agent workflow proof</p>
+  <h2 className="mt-3 text-2xl font-bold text-slate-50">
+    Finance AI needs more than answers. It needs assumptions, approval, and evidence.
+  </h2>
+  <p className="mt-3 text-slate-300">
+    See how the workflow moves from client upload to assumptions ledger, risk detection,
+    human approval, model preview, and evidence pack.
+  </p>
+  <div className="mt-5 flex flex-wrap gap-3">
+    <a href="/workflow-proof" className="rounded-full bg-cyan-300 px-5 py-3 text-sm font-bold text-slate-950">See Workflow Proof</a>
+    <a href="/pilot-request" className="rounded-full border border-slate-600 px-5 py-3 text-sm font-bold text-slate-100">Request Pilot</a>
+  </div>
+</section>
+
 </main>
   );
 }

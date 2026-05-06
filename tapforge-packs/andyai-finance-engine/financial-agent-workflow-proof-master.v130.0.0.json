@@ -1,0 +1,15 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "130.0.0",
+  "title": "Financial Agent Workflow Proof Master",
+  "formula": "Financial Data + AI Agent Workflow + Human Approval + Evidence Memory = Trustworthy Finance Automation",
+  "routes": ["/workflow-proof", "/pilot-request", "/demo-gallery", "/pilot"],
+  "acceptance": [
+    "workflow proof route exists",
+    "pilot request route exists",
+    "human approval is explicit",
+    "evidence memory is central",
+    "build passes",
+    "tag v130.0.0 pushed"
+  ]
+}
