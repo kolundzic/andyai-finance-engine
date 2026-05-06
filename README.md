@@ -690,3 +690,13 @@ The system now has eyes.
 The hands remain locked.
 
 No database execution, mutation, production runtime, billing, checkout, webhooks, or paid runtime is activated.
+
+---
+
+## v12.0.0 — Server-Side Read-Only Executor Candidate Lock
+
+Executor candidate locked.
+
+Execution still requires a separate activation gate.
+
+Canonical domain: `finance.andyai.ai`

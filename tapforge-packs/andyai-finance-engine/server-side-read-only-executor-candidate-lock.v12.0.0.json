@@ -1,0 +1,14 @@
+{
+  "pack": "andyai-finance-engine",
+  "version": "12.0.0",
+  "target_domain": "finance.andyai.ai",
+  "execution_allowed": false,
+  "database_connection_allowed": false,
+  "mutation_allowed": false,
+  "production_runtime_allowed": false,
+  "billing_activated": false,
+  "checkout_activated": false,
+  "webhooks_activated": false,
+  "paid_runtime_activated": false,
+  "next_recommended_line": "v12.1.0 — Server-Side Read-Only Status Route Candidate"
+}
