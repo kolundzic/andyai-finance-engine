@@ -376,3 +376,9 @@ Adds seed-data policy for a Supabase Free lab. No seed data is inserted.
 ## v8.9.0 — v9 TAPFORGE Handoff Readiness
 
 Adds readiness checklist for v9.0.0 TAPFORGE Migration Orchestration Gate.
+
+---
+
+## v9.0.0 — TAPFORGE Migration Orchestration Gate
+
+Completes the TAPFORGE migration orchestration gate. Finance Engine defines; TAPFORGE orchestrates and records evidence. No migration is applied.

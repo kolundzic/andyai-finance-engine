@@ -1,0 +1,16 @@
+{
+  "handoff": "tapforge_migration_orchestration_gate",
+  "handoff_version": "9.0.0",
+  "source_repo": "https://github.com/kolundzic/andyai-finance-engine",
+  "source_tag": "v9.0.0",
+  "finance_engine_role": "source_of_truth",
+  "tapforge_role": "orchestrator",
+  "supabase_free_role": "lab_only",
+  "production_role": "not_enabled",
+  "ready_for_tapforge_import": true,
+  "ready_for_live_migration_apply": false,
+  "requires_human_operator": true,
+  "requires_dry_run": true,
+  "requires_rls_review": true,
+  "requires_secret_hygiene_check": true
+}
