@@ -1,0 +1,9 @@
+{
+  "version": "10.5.0",
+  "mode": "supabase_lab_read_only_request_builder",
+  "executes_fetch": false,
+  "method_allowed": "GET",
+  "body_allowed": false,
+  "mutation_allowed": false,
+  "production_runtime_allowed": false
+}
