@@ -38,6 +38,8 @@ export const navItems = [
   ["Talk", "/talk"],
   ["Talk UI", "/talk-interaction"],
   ["Pilot", "/pilot"],
+  ["Intake", "/pilot-intake"],
+  ["Portal", "/client-portal"],
   ["Offers", "/offers"],
   ["ROI", "/roi"],
   ["Routes", "/routes"],
