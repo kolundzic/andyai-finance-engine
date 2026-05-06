@@ -1,0 +1,16 @@
+{
+  "version": "69.0.0",
+  "tag": "v69.0.0",
+  "slug": "legal-disclaimer-finance-safety-copy",
+  "title": "Legal Disclaimer and Finance Safety Copy",
+  "route": "/finance-safety",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Financial advice boundary is clarified."
+}
