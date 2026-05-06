@@ -207,3 +207,9 @@ Adds future-facing quota runtime interfaces. No live enforcement or Supabase cal
 ## v6.4.0 — Audit Approval Runtime Interface
 
 Adds future-facing audit and approval runtime interfaces. Interface only; no live database writes.
+
+---
+
+## v6.5.0 — Export Safety Gate
+
+Adds a pure local export safety gate for future export workflows. No paid export runtime is active.
