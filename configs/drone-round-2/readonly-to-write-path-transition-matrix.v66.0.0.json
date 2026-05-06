@@ -1,0 +1,16 @@
+{
+  "version": "66.0.0",
+  "tag": "v66.0.0",
+  "slug": "readonly-to-write-path-transition-matrix",
+  "title": "Read-Only to Write Path Transition Matrix",
+  "route": "/write-transition",
+  "live_submit_enabled": false,
+  "database_writes_allowed": false,
+  "provider_connected": false,
+  "service_role_allowed": false,
+  "microphone_enabled": false,
+  "recording_enabled": false,
+  "payment_enabled": false,
+  "checkout_allowed": false,
+  "lock": "Transition is mapped, not activated."
+}
