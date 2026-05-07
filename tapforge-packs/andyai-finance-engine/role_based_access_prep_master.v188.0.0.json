@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "188.0.0",
+  "title": "Role-Based Access Prep Master",
+  "route": "/role-based-access-prep",
+  "road": "v181-v200 pilot operations and production readiness master",
+  "purpose": "Defines future access roles: owner, operator, reviewer, client viewer, and admin."
+}
