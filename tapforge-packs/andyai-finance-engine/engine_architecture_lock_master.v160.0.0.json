@@ -1,0 +1,9 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "160.0.0",
+  "title": "Engine Architecture Lock Master",
+  "route": "/engine-architecture-lock",
+  "road": "v156-v160 no-verify explicit-add rescue road",
+  "purpose": "Locks the first engine architecture baseline after schema and contract layers.",
+  "build_gate": "deferred_to_v160_1_0_build_audit"
+}
