@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "155.0.0",
+  "title": "Human Approval State Machine Master",
+  "route": "/human-approval-state-machine",
+  "road": "v152-v160 engine schema and architecture",
+  "purpose": "Defines approval states and transitions for governed finance output."
+}
