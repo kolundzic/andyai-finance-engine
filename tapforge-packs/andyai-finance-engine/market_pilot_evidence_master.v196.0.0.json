@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "196.0.0",
+  "title": "Market Pilot Evidence Master",
+  "route": "/market-pilot-evidence",
+  "road": "v181-v200 pilot operations and production readiness master",
+  "purpose": "Defines the evidence package needed for serious pilot conversations with partners and clients."
+}
