@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "199.0.0",
+  "title": "Pre-Completion Audit Master",
+  "route": "/pre-completion-audit",
+  "road": "v181-v200 pilot operations and production readiness master",
+  "purpose": "Audits the full v151-v200 engine completion road before the final v200 lock."
+}
