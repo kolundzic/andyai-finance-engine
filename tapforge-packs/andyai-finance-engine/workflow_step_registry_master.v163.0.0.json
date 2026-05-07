@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "163.0.0",
+  "title": "Workflow Step Registry Master",
+  "route": "/workflow-step-registry",
+  "road": "v161-v180 engine midpoint master",
+  "purpose": "Defines reusable workflow steps for governed finance automation."
+}
