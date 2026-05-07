@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "189.0.0",
+  "title": "Notification Rules Prep Master",
+  "route": "/notification-rules-prep",
+  "road": "v181-v200 pilot operations and production readiness master",
+  "purpose": "Defines future notification rules for approvals, blockers, follow-ups, and pilot status changes."
+}
