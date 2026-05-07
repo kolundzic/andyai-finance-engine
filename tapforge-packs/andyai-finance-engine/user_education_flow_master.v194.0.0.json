@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "194.0.0",
+  "title": "User Education Flow Master",
+  "route": "/user-education-flow",
+  "road": "v181-v200 pilot operations and production readiness master",
+  "purpose": "Defines how users learn the engine through UI, docs, examples, screenshots, diagrams, and later animations."
+}
