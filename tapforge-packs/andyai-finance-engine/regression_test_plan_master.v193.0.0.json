@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "193.0.0",
+  "title": "Regression Test Plan Master",
+  "route": "/regression-test-plan",
+  "road": "v181-v200 pilot operations and production readiness master",
+  "purpose": "Defines how future changes are checked so that existing routes, docs, schemas, and workflows do not break."
+}
