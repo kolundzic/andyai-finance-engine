@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "152.0.0",
+  "title": "Finance Workflow Schema Master",
+  "route": "/finance-workflow-schema",
+  "road": "v152-v160 engine schema and architecture",
+  "purpose": "Defines the core financial workflow schema: input, task, agent step, review, approval, output."
+}
