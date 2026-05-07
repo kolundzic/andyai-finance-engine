@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "175.0.0",
+  "title": "Forecast Review Engine Master",
+  "route": "/forecast-review-engine",
+  "road": "v161-v180 engine midpoint master",
+  "purpose": "Defines forecast model review and risk explanation workflow."
+}
