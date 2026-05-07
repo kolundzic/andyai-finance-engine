@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "186.0.0",
+  "title": "Supabase Schema Prep Master",
+  "route": "/supabase-schema-prep",
+  "road": "v181-v200 pilot operations and production readiness master",
+  "purpose": "Defines the database preparation layer for pilot requests, workflows, assumptions, evidence, approvals, and audit records."
+}
