@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "165.0.0",
+  "title": "Review Checklist Engine Master",
+  "route": "/review-checklist-engine",
+  "road": "v161-v180 engine midpoint master",
+  "purpose": "Defines checklist logic for financial output review."
+}
