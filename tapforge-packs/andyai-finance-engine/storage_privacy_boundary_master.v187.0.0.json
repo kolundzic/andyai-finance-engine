@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "187.0.0",
+  "title": "Storage and Privacy Boundary Master",
+  "route": "/storage-privacy-boundary",
+  "road": "v181-v200 pilot operations and production readiness master",
+  "purpose": "Defines what the system may store, what it must not store, and where privacy boundaries must stay visible."
+}
