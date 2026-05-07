@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "200.2.0",
+  "title": "Finance Engine Completion Status / Canon Lock",
+  "route": "/completion-status",
+  "base": "v200.1.0",
+  "purpose": "Lock the v151-v200 engine completion road and open the next implementation phase."
+}

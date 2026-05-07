@@ -1,0 +1,221 @@
+BUILD AUDIT v200.2.0 COMPLETION STATUS CANON LOCK
+Command: npm run build
+
+
+> andyai-finance-engine@200.2.0 build
+> next build
+
+⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+   ▲ Next.js 15.5.15
+
+   Creating an optimized production build ...
+🟡 build still running: elapsed=31s
+ ✓ Compiled successfully in 20.7s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/182) ...
+   Generating static pages (45/182) 
+   Generating static pages (90/182) 
+   Generating static pages (136/182) 
+ ✓ Generating static pages (182/182)
+   Finalizing page optimization ...
+🟡 build still running: elapsed=61s
+   Collecting build traces ...
+
+Route (app)                                  Size  First Load JS
+┌ ○ /                                       530 B         103 kB
+├ ○ /_not-found                             530 B         103 kB
+├ ○ /abuse-rate-limit                       530 B         103 kB
+├ ○ /admin-review                           530 B         103 kB
+├ ○ /agent-role-registry                    530 B         103 kB
+├ ○ /analytics-plan                         530 B         103 kB
+├ ○ /api/finance/read-only/status           530 B         103 kB
+├ ○ /approval                               530 B         103 kB
+├ ○ /approval-comment-thread                530 B         103 kB
+├ ○ /approval-demo                          530 B         103 kB
+├ ○ /approval-flow                          530 B         103 kB
+├ ○ /approval-queue                         530 B         103 kB
+├ ○ /architecture                           530 B         103 kB
+├ ○ /assumptions                            530 B         103 kB
+├ ○ /assumptions-ledger-data-model          530 B         103 kB
+├ ○ /assumptions-ledger-ui                  530 B         103 kB
+├ ○ /audit                                  530 B         103 kB
+├ ○ /audit-log-blueprint                    530 B         103 kB
+├ ○ /audit-trail-contract                   530 B         103 kB
+├ ○ /before-after                           530 B         103 kB
+├ ○ /bilingual-pack                         530 B         103 kB
+├ ○ /blocked-output-rules                   530 B         103 kB
+├ ○ /budget-variance-engine                 530 B         103 kB
+├ ○ /build-audit                            530 B         103 kB
+├ ○ /business-system                        530 B         103 kB
+├ ○ /case-study                             530 B         103 kB
+├ ○ /case-study-blueprint                   530 B         103 kB
+├ ○ /case-study-simulator                   530 B         103 kB
+├ ○ /change-request-loop                    530 B         103 kB
+├ ○ /checkout-boundary                      530 B         103 kB
+├ ○ /client-dashboard                       530 B         103 kB
+├ ○ /client-demo                            530 B         103 kB
+├ ○ /client-handoff-memo                    530 B         103 kB
+├ ○ /client-pilot-package                   530 B         103 kB
+├ ○ /client-portal                          530 B         103 kB
+├ ○ /client-portal-v2                       530 B         103 kB
+├ ○ /client-scope-builder                   530 B         103 kB
+├ ○ /client-story                           530 B         103 kB
+├ ○ /completion-status                      530 B         103 kB
+├ ○ /crm-boundary                           530 B         103 kB
+├ ○ /crm-handoff                            530 B         103 kB
+├ ○ /decision-board                         530 B         103 kB
+├ ○ /deck                                   530 B         103 kB
+├ ○ /delivery-timeline                      530 B         103 kB
+├ ○ /demo                                   530 B         103 kB
+├ ○ /demo-data-library                      530 B         103 kB
+├ ○ /demo-gallery                           530 B         103 kB
+├ ○ /demo-script-sales-conversation         530 B         103 kB
+├ ○ /demo-theater                           530 B         103 kB
+├ ○ /design-dna                             530 B         103 kB
+├ ○ /draft-payload                          530 B         103 kB
+├ ○ /email-crm-handoff                      530 B         103 kB
+├ ○ /engine-architecture-lock               530 B         103 kB
+├ ○ /engine-midpoint-lock                   530 B         103 kB
+├ ○ /engine-roadmap                         530 B         103 kB
+├ ○ /engine-status                          530 B         103 kB
+├ ○ /enterprise                             530 B         103 kB
+├ ○ /enterprise-governance                  530 B         103 kB
+├ ○ /evaluation-criteria                    530 B         103 kB
+├ ○ /evidence-assembly                      530 B         103 kB
+├ ○ /evidence-builder                       530 B         103 kB
+├ ○ /evidence-linker                        530 B         103 kB
+├ ○ /evidence-pack                          530 B         103 kB
+├ ○ /evidence-pack-data-model               530 B         103 kB
+├ ○ /evidence-pack-ui                       530 B         103 kB
+├ ○ /evidence-preview                       530 B         103 kB
+├ ○ /example-in-action                      530 B         103 kB
+├ ○ /excel-comparison-framework             530 B         103 kB
+├ ○ /export-pack                            530 B         103 kB
+├ ○ /export-package-contract                530 B         103 kB
+├ ○ /faq                                    530 B         103 kB
+├ ○ /finance-engine-api-shape               530 B         103 kB
+├ ○ /finance-engine-completion-lock         530 B         103 kB
+├ ○ /finance-proof                          530 B         103 kB
+├ ○ /finance-safety                         530 B         103 kB
+├ ○ /finance-task-classifier                530 B         103 kB
+├ ○ /finance-workflow-schema                530 B         103 kB
+├ ○ /financial-memo-generator-contract      530 B         103 kB
+├ ○ /forecast-review-engine                 530 B         103 kB
+├ ○ /frontend-clarity-lock                  530 B         103 kB
+├ ○ /governance-matrix                      530 B         103 kB
+├ ○ /governance-runtime                     530 B         103 kB
+├ ○ /governed-output-lock                   530 B         103 kB
+├ ○ /handoff-plan                           530 B         103 kB
+├ ○ /human-approval-state-machine           530 B         103 kB
+├ ○ /human-approval-ui                      530 B         103 kB
+├ ○ /input-normalization                    530 B         103 kB
+├ ○ /intake-preview                         530 B         103 kB
+├ ○ /internal-map                           530 B         103 kB
+├ ○ /investor-proof-room                    530 B         103 kB
+├ ○ /investor-update-engine                 530 B         103 kB
+├ ○ /journey-simulator                      530 B         103 kB
+├ ○ /jp-market                              530 B         103 kB
+├ ○ /launch                                 530 B         103 kB
+├ ○ /lead                                   530 B         103 kB
+├ ○ /library                                530 B         103 kB
+├ ○ /local-validation                       530 B         103 kB
+├ ○ /market-pilot-evidence                  530 B         103 kB
+├ ○ /market-pilot-readiness                 530 B         103 kB
+├ ○ /marketplace                            530 B         103 kB
+├ ○ /maturity                               530 B         103 kB
+├ ○ /model-preview                          530 B         103 kB
+├ ○ /model-preview-data-contract            530 B         103 kB
+├ ○ /model-preview-workbench                530 B         103 kB
+├ ○ /model-templates                        530 B         103 kB
+├ ○ /notification-rules-prep                530 B         103 kB
+├ ○ /offers                                 530 B         103 kB
+├ ○ /operator-dashboard-state               530 B         103 kB
+├ ○ /output-pack                            530 B         103 kB
+├ ○ /partner-demo-pack                      530 B         103 kB
+├ ○ /partner-offer                          530 B         103 kB
+├ ○ /partner-pilot                          530 B         103 kB
+├ ○ /pdf-export-blueprint                   530 B         103 kB
+├ ○ /pilot                                  530 B         103 kB
+├ ○ /pilot-follow-up-engine                 530 B         103 kB
+├ ○ /pilot-intake                           530 B         103 kB
+├ ○ /pilot-intake-form                      968 B         103 kB
+├ ○ /pilot-intake-system                    530 B         103 kB
+├ ○ /pilot-operations-lock                  530 B         103 kB
+├ ○ /pilot-ops-dashboard                    530 B         103 kB
+├ ○ /pilot-pricing-offer                    530 B         103 kB
+├ ○ /pilot-proof                            530 B         103 kB
+├ ○ /pilot-qualification-rules              530 B         103 kB
+├ ○ /pilot-request                          530 B         103 kB
+├ ○ /pilot-request-data-model               530 B         103 kB
+├ ○ /pilot-request-lifecycle                530 B         103 kB
+├ ○ /pilot-review-dashboard                 530 B         103 kB
+├ ○ /pilot-sales-page                       530 B         103 kB
+├ ○ /pre-completion-audit                   530 B         103 kB
+├ ○ /pre-v80-audit                          530 B         103 kB
+├ ○ /press                                  530 B         103 kB
+├ ○ /pricing                                530 B         103 kB
+├ ○ /production-readiness-gap-map           530 B         103 kB
+├ ○ /project-brief                          530 B         103 kB
+├ ○ /projects                               530 B         103 kB
+├ ○ /proof                                  530 B         103 kB
+├ ○ /proposal-preview                       530 B         103 kB
+├ ○ /proposal-workspace                     530 B         103 kB
+├ ○ /quality-gate                           530 B         103 kB
+├ ○ /readiness                              530 B         103 kB
+├ ○ /recovery-sop                           530 B         103 kB
+├ ○ /redaction-plan                         530 B         103 kB
+├ ○ /regression-test-plan                   530 B         103 kB
+├ ○ /review-checklist-engine                530 B         103 kB
+├ ○ /risk-missing-data-rules                530 B         103 kB
+├ ○ /roadmap                                530 B         103 kB
+├ ○ /roadmap-v2                             530 B         103 kB
+├ ○ /roi                                    530 B         103 kB
+├ ○ /roi-scenarios                          530 B         103 kB
+├ ○ /role-based-access-prep                 530 B         103 kB
+├ ○ /routes                                 530 B         103 kB
+├ ○ /runs                                   530 B         103 kB
+├ ○ /runtime-gate                           530 B         103 kB
+├ ○ /runtime-readiness                      530 B         103 kB
+├ ○ /runway-scenario-engine                 530 B         103 kB
+├ ○ /sales-ops                              530 B         103 kB
+├ ○ /sales-theater                          530 B         103 kB
+├ ○ /sample-input                           530 B         103 kB
+├ ○ /screenshot-story                       530 B         103 kB
+├ ○ /security                               530 B         103 kB
+├ ○ /storage-privacy-boundary               530 B         103 kB
+├ ○ /supabase                               530 B         103 kB
+├ ○ /supabase-pilot-capture-prep            530 B         103 kB
+├ ○ /supabase-schema-prep                   530 B         103 kB
+├ ○ /supabase-write-gate                    530 B         103 kB
+├ ○ /talk                                   530 B         103 kB
+├ ○ /talk-interaction                     1.69 kB         104 kB
+├ ○ /talk-safety                            530 B         103 kB
+├ ○ /trust                                  530 B         103 kB
+├ ○ /trust-center                           530 B         103 kB
+├ ○ /use-cases                              530 B         103 kB
+├ ○ /use-cases/investor-update              530 B         103 kB
+├ ○ /use-cases/startup-runway               530 B         103 kB
+├ ○ /user-education-flow                    530 B         103 kB
+├ ○ /v50-audit                              530 B         103 kB
+├ ○ /value-demo                             530 B         103 kB
+├ ○ /workflow                               530 B         103 kB
+├ ○ /workflow-proof                         530 B         103 kB
+├ ○ /workflow-step-registry                 530 B         103 kB
+└ ○ /write-transition                       530 B         103 kB
++ First Load JS shared by all              102 kB
+  ├ chunks/1255-5fe68596fe147850.js         46 kB
+  ├ chunks/4bd1b696-f785427dddbba9fb.js   54.2 kB
+  └ other shared chunks (total)            1.9 kB
+
+Route (pages)                                Size  First Load JS
+─ ○ /404 (1003 ms)                          550 B        98.9 kB
++ First Load JS shared by all             98.3 kB
+  ├ chunks/framework-d0ede7c356a84725.js  59.7 kB
+  ├ chunks/main-dfb9a18d976f72e5.js       36.8 kB
+  └ other shared chunks (total)           1.86 kB
+
+○  (Static)  prerendered as static content
+
+
+Exit code: 0
