@@ -1,0 +1,201 @@
+BUILD AUDIT v180.2.0 STATUS CANON LOCK
+Command: npm run build
+
+
+> andyai-finance-engine@180.2.0 build
+> next build
+
+⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+   ▲ Next.js 15.5.15
+
+   Creating an optimized production build ...
+🟡 build still running: elapsed=30s
+ ✓ Compiled successfully in 28.9s
+   Linting and checking validity of types ...
+   Collecting page data ...
+🟡 build still running: elapsed=60s
+   Generating static pages (0/161) ...
+   Generating static pages (40/161) 
+   Generating static pages (80/161) 
+   Generating static pages (120/161) 
+ ✓ Generating static pages (161/161)
+   Finalizing page optimization ...
+🟡 build still running: elapsed=90s
+   Collecting build traces ...
+
+Route (app)                                  Size  First Load JS
+┌ ○ /                                       483 B         103 kB
+├ ○ /_not-found                             483 B         103 kB
+├ ○ /abuse-rate-limit                       483 B         103 kB
+├ ○ /admin-review                           483 B         103 kB
+├ ○ /agent-role-registry                    483 B         103 kB
+├ ○ /analytics-plan                         483 B         103 kB
+├ ○ /api/finance/read-only/status           483 B         103 kB
+├ ○ /approval                               483 B         103 kB
+├ ○ /approval-comment-thread                483 B         103 kB
+├ ○ /approval-demo                          483 B         103 kB
+├ ○ /approval-flow                          483 B         103 kB
+├ ○ /approval-queue                         483 B         103 kB
+├ ○ /architecture                           483 B         103 kB
+├ ○ /assumptions                            483 B         103 kB
+├ ○ /assumptions-ledger-data-model          483 B         103 kB
+├ ○ /assumptions-ledger-ui                  483 B         103 kB
+├ ○ /audit                                  483 B         103 kB
+├ ○ /audit-log-blueprint                    483 B         103 kB
+├ ○ /audit-trail-contract                   483 B         103 kB
+├ ○ /before-after                           483 B         103 kB
+├ ○ /bilingual-pack                         483 B         103 kB
+├ ○ /blocked-output-rules                   483 B         103 kB
+├ ○ /budget-variance-engine                 483 B         103 kB
+├ ○ /build-audit                            483 B         103 kB
+├ ○ /business-system                        483 B         103 kB
+├ ○ /case-study                             483 B         103 kB
+├ ○ /case-study-blueprint                   483 B         103 kB
+├ ○ /case-study-simulator                   483 B         103 kB
+├ ○ /change-request-loop                    483 B         103 kB
+├ ○ /checkout-boundary                      483 B         103 kB
+├ ○ /client-dashboard                       483 B         103 kB
+├ ○ /client-demo                            483 B         103 kB
+├ ○ /client-handoff-memo                    483 B         103 kB
+├ ○ /client-pilot-package                   483 B         103 kB
+├ ○ /client-portal                          483 B         103 kB
+├ ○ /client-portal-v2                       483 B         103 kB
+├ ○ /client-story                           483 B         103 kB
+├ ○ /crm-boundary                           483 B         103 kB
+├ ○ /crm-handoff                            483 B         103 kB
+├ ○ /decision-board                         483 B         103 kB
+├ ○ /deck                                   483 B         103 kB
+├ ○ /delivery-timeline                      483 B         103 kB
+├ ○ /demo                                   483 B         103 kB
+├ ○ /demo-data-library                      483 B         103 kB
+├ ○ /demo-gallery                           483 B         103 kB
+├ ○ /demo-script-sales-conversation         483 B         103 kB
+├ ○ /demo-theater                           483 B         103 kB
+├ ○ /design-dna                             483 B         103 kB
+├ ○ /draft-payload                          483 B         103 kB
+├ ○ /email-crm-handoff                      483 B         103 kB
+├ ○ /engine-architecture-lock               483 B         103 kB
+├ ○ /engine-midpoint-lock                   483 B         103 kB
+├ ○ /engine-roadmap                         483 B         103 kB
+├ ○ /engine-status                          483 B         103 kB
+├ ○ /enterprise                             483 B         103 kB
+├ ○ /enterprise-governance                  483 B         103 kB
+├ ○ /evidence-assembly                      483 B         103 kB
+├ ○ /evidence-builder                       483 B         103 kB
+├ ○ /evidence-linker                        483 B         103 kB
+├ ○ /evidence-pack                          483 B         103 kB
+├ ○ /evidence-pack-data-model               483 B         103 kB
+├ ○ /evidence-pack-ui                       483 B         103 kB
+├ ○ /evidence-preview                       483 B         103 kB
+├ ○ /example-in-action                      483 B         103 kB
+├ ○ /export-pack                            483 B         103 kB
+├ ○ /export-package-contract                483 B         103 kB
+├ ○ /faq                                    483 B         103 kB
+├ ○ /finance-proof                          483 B         103 kB
+├ ○ /finance-safety                         483 B         103 kB
+├ ○ /finance-task-classifier                483 B         103 kB
+├ ○ /finance-workflow-schema                483 B         103 kB
+├ ○ /financial-memo-generator-contract      483 B         103 kB
+├ ○ /forecast-review-engine                 483 B         103 kB
+├ ○ /frontend-clarity-lock                  483 B         103 kB
+├ ○ /governance-matrix                      483 B         103 kB
+├ ○ /governance-runtime                     483 B         103 kB
+├ ○ /governed-output-lock                   483 B         103 kB
+├ ○ /handoff-plan                           483 B         103 kB
+├ ○ /human-approval-state-machine           483 B         103 kB
+├ ○ /human-approval-ui                      483 B         103 kB
+├ ○ /input-normalization                    483 B         103 kB
+├ ○ /intake-preview                         483 B         103 kB
+├ ○ /internal-map                           483 B         103 kB
+├ ○ /investor-proof-room                    483 B         103 kB
+├ ○ /investor-update-engine                 483 B         103 kB
+├ ○ /journey-simulator                      483 B         103 kB
+├ ○ /jp-market                              483 B         103 kB
+├ ○ /launch                                 483 B         103 kB
+├ ○ /lead                                   483 B         103 kB
+├ ○ /library                                483 B         103 kB
+├ ○ /local-validation                       483 B         103 kB
+├ ○ /market-pilot-readiness                 483 B         103 kB
+├ ○ /marketplace                            483 B         103 kB
+├ ○ /maturity                               483 B         103 kB
+├ ○ /model-preview                          483 B         103 kB
+├ ○ /model-preview-data-contract            483 B         103 kB
+├ ○ /model-preview-workbench                483 B         103 kB
+├ ○ /model-templates                        483 B         103 kB
+├ ○ /offers                                 483 B         103 kB
+├ ○ /operator-dashboard-state               483 B         103 kB
+├ ○ /output-pack                            483 B         103 kB
+├ ○ /partner-offer                          483 B         103 kB
+├ ○ /partner-pilot                          483 B         103 kB
+├ ○ /pdf-export-blueprint                   483 B         103 kB
+├ ○ /pilot                                  483 B         103 kB
+├ ○ /pilot-intake                           483 B         103 kB
+├ ○ /pilot-intake-form                      968 B         103 kB
+├ ○ /pilot-intake-system                    483 B         103 kB
+├ ○ /pilot-pricing-offer                    483 B         103 kB
+├ ○ /pilot-proof                            483 B         103 kB
+├ ○ /pilot-request                          483 B         103 kB
+├ ○ /pilot-request-data-model               483 B         103 kB
+├ ○ /pilot-request-lifecycle                483 B         103 kB
+├ ○ /pilot-review-dashboard                 483 B         103 kB
+├ ○ /pilot-sales-page                       483 B         103 kB
+├ ○ /pre-v80-audit                          483 B         103 kB
+├ ○ /press                                  483 B         103 kB
+├ ○ /pricing                                483 B         103 kB
+├ ○ /project-brief                          483 B         103 kB
+├ ○ /projects                               483 B         103 kB
+├ ○ /proof                                  483 B         103 kB
+├ ○ /proposal-preview                       483 B         103 kB
+├ ○ /proposal-workspace                     483 B         103 kB
+├ ○ /readiness                              483 B         103 kB
+├ ○ /recovery-sop                           483 B         103 kB
+├ ○ /redaction-plan                         483 B         103 kB
+├ ○ /review-checklist-engine                483 B         103 kB
+├ ○ /risk-missing-data-rules                483 B         103 kB
+├ ○ /roadmap                                483 B         103 kB
+├ ○ /roadmap-v2                             483 B         103 kB
+├ ○ /roi                                    483 B         103 kB
+├ ○ /roi-scenarios                          483 B         103 kB
+├ ○ /routes                                 483 B         103 kB
+├ ○ /runs                                   483 B         103 kB
+├ ○ /runtime-gate                           483 B         103 kB
+├ ○ /runtime-readiness                      483 B         103 kB
+├ ○ /runway-scenario-engine                 483 B         103 kB
+├ ○ /sales-ops                              483 B         103 kB
+├ ○ /sales-theater                          483 B         103 kB
+├ ○ /sample-input                           483 B         103 kB
+├ ○ /screenshot-story                       483 B         103 kB
+├ ○ /security                               483 B         103 kB
+├ ○ /supabase                               483 B         103 kB
+├ ○ /supabase-pilot-capture-prep            483 B         103 kB
+├ ○ /supabase-write-gate                    483 B         103 kB
+├ ○ /talk                                   483 B         103 kB
+├ ○ /talk-interaction                     1.69 kB         104 kB
+├ ○ /talk-safety                            483 B         103 kB
+├ ○ /trust                                  483 B         103 kB
+├ ○ /trust-center                           483 B         103 kB
+├ ○ /use-cases                              483 B         103 kB
+├ ○ /use-cases/investor-update              483 B         103 kB
+├ ○ /use-cases/startup-runway               483 B         103 kB
+├ ○ /v50-audit                              483 B         103 kB
+├ ○ /value-demo                             483 B         103 kB
+├ ○ /workflow                               483 B         103 kB
+├ ○ /workflow-proof                         483 B         103 kB
+├ ○ /workflow-step-registry                 483 B         103 kB
+└ ○ /write-transition                       483 B         103 kB
++ First Load JS shared by all              102 kB
+  ├ chunks/1255-5fe68596fe147850.js         46 kB
+  ├ chunks/4bd1b696-f785427dddbba9fb.js   54.2 kB
+  └ other shared chunks (total)            1.9 kB
+
+Route (pages)                                Size  First Load JS
+─ ○ /404 (842 ms)                           550 B        98.9 kB
++ First Load JS shared by all             98.3 kB
+  ├ chunks/framework-d0ede7c356a84725.js  59.7 kB
+  ├ chunks/main-dfb9a18d976f72e5.js       36.8 kB
+  └ other shared chunks (total)           1.86 kB
+
+○  (Static)  prerendered as static content
+
+
+Exit code: 0

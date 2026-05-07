@@ -1,0 +1,9 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "180.2.0",
+  "title": "Engine Status Report / Canon Lock",
+  "route": "/engine-status",
+  "base": "v180.1.0",
+  "next_road": "v181.0.0-v200.0.0",
+  "purpose": "Lock the v180 engine midpoint status before the next production readiness road."
+}
