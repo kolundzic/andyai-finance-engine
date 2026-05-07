@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "171.0.0",
+  "title": "Demo Data Library Master",
+  "route": "/demo-data-library",
+  "road": "v161-v180 engine midpoint master",
+  "purpose": "Defines safe realistic demo data without private or client-sensitive information."
+}
