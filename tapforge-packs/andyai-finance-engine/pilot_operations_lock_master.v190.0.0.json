@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "190.0.0",
+  "title": "Pilot Operations Lock Master",
+  "route": "/pilot-operations-lock",
+  "road": "v181-v200 pilot operations and production readiness master",
+  "purpose": "Locks the pilot operations layer after dashboard, qualification, follow-up, scope, API, storage, access, and notifications."
+}
