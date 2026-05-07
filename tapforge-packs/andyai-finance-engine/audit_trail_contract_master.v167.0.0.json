@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "167.0.0",
+  "title": "Audit Trail Contract Master",
+  "route": "/audit-trail-contract",
+  "road": "v161-v180 engine midpoint master",
+  "purpose": "Defines audit trail records: who changed what, when, why, and with which evidence."
+}
