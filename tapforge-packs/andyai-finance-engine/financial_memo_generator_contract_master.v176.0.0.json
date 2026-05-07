@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "176.0.0",
+  "title": "Financial Memo Generator Contract Master",
+  "route": "/financial-memo-generator-contract",
+  "road": "v161-v180 engine midpoint master",
+  "purpose": "Defines the contract for client-ready financial memo generation."
+}
