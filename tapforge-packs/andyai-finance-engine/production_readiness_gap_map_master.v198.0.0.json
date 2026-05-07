@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "198.0.0",
+  "title": "Production Readiness Gap Map Master",
+  "route": "/production-readiness-gap-map",
+  "road": "v181-v200 pilot operations and production readiness master",
+  "purpose": "Defines what remains before real production: database, auth, RBAC, upload parsing, storage, billing, monitoring, and support."
+}
