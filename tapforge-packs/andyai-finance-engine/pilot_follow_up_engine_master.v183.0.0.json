@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "183.0.0",
+  "title": "Pilot Follow-Up Engine Master",
+  "route": "/pilot-follow-up-engine",
+  "road": "v181-v200 pilot operations and production readiness master",
+  "purpose": "Defines the follow-up workflow after a pilot request, including next message, evidence request, and demo scheduling."
+}
