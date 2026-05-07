@@ -1,0 +1,9 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "160.1.0",
+  "title": "Build Audit Master R4",
+  "route": "/build-audit",
+  "base": "v160.0.0",
+  "method": "fresh_clone_audit_sandbox",
+  "build_command": "npm run build"
+}
