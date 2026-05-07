@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "174.0.0",
+  "title": "Budget Variance Engine Master",
+  "route": "/budget-variance-engine",
+  "road": "v161-v180 engine midpoint master",
+  "purpose": "Defines plan-vs-actual variance explanation workflow."
+}
