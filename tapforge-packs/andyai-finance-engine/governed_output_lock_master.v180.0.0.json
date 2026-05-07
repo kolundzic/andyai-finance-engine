@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "180.0.0",
+  "title": "Governed Output Lock Master",
+  "route": "/governed-output-lock",
+  "road": "v161-v180 engine midpoint master",
+  "purpose": "Locks the governed output layer after workflow, evidence, audit, and approval structures."
+}
