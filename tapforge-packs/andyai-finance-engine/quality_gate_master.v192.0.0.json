@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "192.0.0",
+  "title": "Quality Gate Master",
+  "route": "/quality-gate",
+  "road": "v181-v200 pilot operations and production readiness master",
+  "purpose": "Defines quality gates that every client-facing output must pass before handoff."
+}
