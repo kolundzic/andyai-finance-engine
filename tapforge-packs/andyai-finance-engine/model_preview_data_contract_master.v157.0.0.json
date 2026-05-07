@@ -1,0 +1,9 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "157.0.0",
+  "title": "Model Preview Data Contract Master",
+  "route": "/model-preview-data-contract",
+  "road": "v156-v160 no-verify explicit-add rescue road",
+  "purpose": "Defines model preview contract: projections, assumptions, risk notes, evidence references, readiness.",
+  "build_gate": "deferred_to_v160_1_0_build_audit"
+}
