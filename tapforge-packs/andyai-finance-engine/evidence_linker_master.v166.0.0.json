@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "166.0.0",
+  "title": "Evidence Linker Master",
+  "route": "/evidence-linker",
+  "road": "v161-v180 engine midpoint master",
+  "purpose": "Defines how evidence links assumptions, risks, decisions, and final output."
+}
