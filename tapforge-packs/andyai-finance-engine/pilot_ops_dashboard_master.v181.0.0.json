@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "181.0.0",
+  "title": "Pilot Ops Dashboard Master",
+  "route": "/pilot-ops-dashboard",
+  "road": "v181-v200 pilot operations and production readiness master",
+  "purpose": "Defines the operational dashboard for tracking pilot users, requests, blockers, approvals, and next actions."
+}
