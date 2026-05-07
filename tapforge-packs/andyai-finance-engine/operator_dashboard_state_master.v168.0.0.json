@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "168.0.0",
+  "title": "Operator Dashboard State Master",
+  "route": "/operator-dashboard-state",
+  "road": "v161-v180 engine midpoint master",
+  "purpose": "Defines operator dashboard states: pending, blocked, approved, ready, archived."
+}
