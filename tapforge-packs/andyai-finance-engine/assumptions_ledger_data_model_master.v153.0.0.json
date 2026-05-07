@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "153.0.0",
+  "title": "Assumptions Ledger Data Model Master",
+  "route": "/assumptions-ledger-data-model",
+  "road": "v152-v160 engine schema and architecture",
+  "purpose": "Defines assumptions, sources, confidence, risk, review status, and approval linkage."
+}
