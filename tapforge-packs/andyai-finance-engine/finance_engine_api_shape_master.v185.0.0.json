@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "185.0.0",
+  "title": "Finance Engine API Shape Master",
+  "route": "/finance-engine-api-shape",
+  "road": "v181-v200 pilot operations and production readiness master",
+  "purpose": "Defines the public shape of future API endpoints without exposing secrets or unsafe production behavior."
+}
