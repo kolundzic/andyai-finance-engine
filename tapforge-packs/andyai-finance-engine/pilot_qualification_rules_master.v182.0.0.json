@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "182.0.0",
+  "title": "Pilot Qualification Rules Master",
+  "route": "/pilot-qualification-rules",
+  "road": "v181-v200 pilot operations and production readiness master",
+  "purpose": "Defines criteria for deciding which pilot requests are ready, blocked, too vague, or high value."
+}
