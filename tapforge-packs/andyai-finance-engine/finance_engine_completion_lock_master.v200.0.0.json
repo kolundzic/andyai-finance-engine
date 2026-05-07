@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "200.0.0",
+  "title": "Finance Engine Completion Lock Master",
+  "route": "/finance-engine-completion-lock",
+  "road": "v181-v200 pilot operations and production readiness master",
+  "purpose": "Locks the v151-v200 engine completion road and opens the next slow page-by-page UI, visual, animation, and real backend implementation phase."
+}
