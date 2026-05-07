@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "169.0.0",
+  "title": "Client Handoff Memo Master",
+  "route": "/client-handoff-memo",
+  "road": "v161-v180 engine midpoint master",
+  "purpose": "Defines the client-ready memo structure after a reviewed finance workflow."
+}
