@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "173.0.0",
+  "title": "Investor Update Engine Master",
+  "route": "/investor-update-engine",
+  "road": "v161-v180 engine midpoint master",
+  "purpose": "Defines investor update package generation and approval flow."
+}
