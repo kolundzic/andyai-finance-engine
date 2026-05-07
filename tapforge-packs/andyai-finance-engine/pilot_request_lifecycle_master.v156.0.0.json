@@ -1,0 +1,9 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "156.0.0",
+  "title": "Pilot Request Lifecycle Master",
+  "route": "/pilot-request-lifecycle",
+  "road": "v156-v160 no-verify explicit-add rescue road",
+  "purpose": "Defines pilot request lifecycle from intake to qualified pilot conversation.",
+  "build_gate": "deferred_to_v160_1_0_build_audit"
+}
