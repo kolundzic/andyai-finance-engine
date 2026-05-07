@@ -1,0 +1,220 @@
+BUILD AUDIT v181-v200 COMPLETION BATCH
+Command: npm run build
+
+
+> andyai-finance-engine@200.0.0 build
+> next build
+
+⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+   ▲ Next.js 15.5.15
+
+   Creating an optimized production build ...
+🟡 build still running: elapsed=30s
+ ✓ Compiled successfully in 22.6s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/181) ...
+   Generating static pages (45/181) 
+   Generating static pages (90/181) 
+   Generating static pages (135/181) 
+ ✓ Generating static pages (181/181)
+   Finalizing page optimization ...
+   Collecting build traces ...
+🟡 build still running: elapsed=60s
+
+Route (app)                                  Size  First Load JS
+┌ ○ /                                       528 B         103 kB
+├ ○ /_not-found                             528 B         103 kB
+├ ○ /abuse-rate-limit                       528 B         103 kB
+├ ○ /admin-review                           528 B         103 kB
+├ ○ /agent-role-registry                    528 B         103 kB
+├ ○ /analytics-plan                         528 B         103 kB
+├ ○ /api/finance/read-only/status           528 B         103 kB
+├ ○ /approval                               528 B         103 kB
+├ ○ /approval-comment-thread                528 B         103 kB
+├ ○ /approval-demo                          528 B         103 kB
+├ ○ /approval-flow                          528 B         103 kB
+├ ○ /approval-queue                         528 B         103 kB
+├ ○ /architecture                           528 B         103 kB
+├ ○ /assumptions                            528 B         103 kB
+├ ○ /assumptions-ledger-data-model          528 B         103 kB
+├ ○ /assumptions-ledger-ui                  528 B         103 kB
+├ ○ /audit                                  528 B         103 kB
+├ ○ /audit-log-blueprint                    528 B         103 kB
+├ ○ /audit-trail-contract                   528 B         103 kB
+├ ○ /before-after                           528 B         103 kB
+├ ○ /bilingual-pack                         528 B         103 kB
+├ ○ /blocked-output-rules                   528 B         103 kB
+├ ○ /budget-variance-engine                 528 B         103 kB
+├ ○ /build-audit                            528 B         103 kB
+├ ○ /business-system                        528 B         103 kB
+├ ○ /case-study                             528 B         103 kB
+├ ○ /case-study-blueprint                   528 B         103 kB
+├ ○ /case-study-simulator                   528 B         103 kB
+├ ○ /change-request-loop                    528 B         103 kB
+├ ○ /checkout-boundary                      528 B         103 kB
+├ ○ /client-dashboard                       528 B         103 kB
+├ ○ /client-demo                            528 B         103 kB
+├ ○ /client-handoff-memo                    528 B         103 kB
+├ ○ /client-pilot-package                   528 B         103 kB
+├ ○ /client-portal                          528 B         103 kB
+├ ○ /client-portal-v2                       528 B         103 kB
+├ ○ /client-scope-builder                   528 B         103 kB
+├ ○ /client-story                           528 B         103 kB
+├ ○ /crm-boundary                           528 B         103 kB
+├ ○ /crm-handoff                            528 B         103 kB
+├ ○ /decision-board                         528 B         103 kB
+├ ○ /deck                                   528 B         103 kB
+├ ○ /delivery-timeline                      528 B         103 kB
+├ ○ /demo                                   528 B         103 kB
+├ ○ /demo-data-library                      528 B         103 kB
+├ ○ /demo-gallery                           528 B         103 kB
+├ ○ /demo-script-sales-conversation         528 B         103 kB
+├ ○ /demo-theater                           528 B         103 kB
+├ ○ /design-dna                             528 B         103 kB
+├ ○ /draft-payload                          528 B         103 kB
+├ ○ /email-crm-handoff                      528 B         103 kB
+├ ○ /engine-architecture-lock               528 B         103 kB
+├ ○ /engine-midpoint-lock                   528 B         103 kB
+├ ○ /engine-roadmap                         528 B         103 kB
+├ ○ /engine-status                          528 B         103 kB
+├ ○ /enterprise                             528 B         103 kB
+├ ○ /enterprise-governance                  528 B         103 kB
+├ ○ /evaluation-criteria                    528 B         103 kB
+├ ○ /evidence-assembly                      528 B         103 kB
+├ ○ /evidence-builder                       528 B         103 kB
+├ ○ /evidence-linker                        528 B         103 kB
+├ ○ /evidence-pack                          528 B         103 kB
+├ ○ /evidence-pack-data-model               528 B         103 kB
+├ ○ /evidence-pack-ui                       528 B         103 kB
+├ ○ /evidence-preview                       528 B         103 kB
+├ ○ /example-in-action                      528 B         103 kB
+├ ○ /excel-comparison-framework             528 B         103 kB
+├ ○ /export-pack                            528 B         103 kB
+├ ○ /export-package-contract                528 B         103 kB
+├ ○ /faq                                    528 B         103 kB
+├ ○ /finance-engine-api-shape               528 B         103 kB
+├ ○ /finance-engine-completion-lock         528 B         103 kB
+├ ○ /finance-proof                          528 B         103 kB
+├ ○ /finance-safety                         528 B         103 kB
+├ ○ /finance-task-classifier                528 B         103 kB
+├ ○ /finance-workflow-schema                528 B         103 kB
+├ ○ /financial-memo-generator-contract      528 B         103 kB
+├ ○ /forecast-review-engine                 528 B         103 kB
+├ ○ /frontend-clarity-lock                  528 B         103 kB
+├ ○ /governance-matrix                      528 B         103 kB
+├ ○ /governance-runtime                     528 B         103 kB
+├ ○ /governed-output-lock                   528 B         103 kB
+├ ○ /handoff-plan                           528 B         103 kB
+├ ○ /human-approval-state-machine           528 B         103 kB
+├ ○ /human-approval-ui                      528 B         103 kB
+├ ○ /input-normalization                    528 B         103 kB
+├ ○ /intake-preview                         528 B         103 kB
+├ ○ /internal-map                           528 B         103 kB
+├ ○ /investor-proof-room                    528 B         103 kB
+├ ○ /investor-update-engine                 528 B         103 kB
+├ ○ /journey-simulator                      528 B         103 kB
+├ ○ /jp-market                              528 B         103 kB
+├ ○ /launch                                 528 B         103 kB
+├ ○ /lead                                   528 B         103 kB
+├ ○ /library                                528 B         103 kB
+├ ○ /local-validation                       528 B         103 kB
+├ ○ /market-pilot-evidence                  528 B         103 kB
+├ ○ /market-pilot-readiness                 528 B         103 kB
+├ ○ /marketplace                            528 B         103 kB
+├ ○ /maturity                               528 B         103 kB
+├ ○ /model-preview                          528 B         103 kB
+├ ○ /model-preview-data-contract            528 B         103 kB
+├ ○ /model-preview-workbench                528 B         103 kB
+├ ○ /model-templates                        528 B         103 kB
+├ ○ /notification-rules-prep                528 B         103 kB
+├ ○ /offers                                 528 B         103 kB
+├ ○ /operator-dashboard-state               528 B         103 kB
+├ ○ /output-pack                            528 B         103 kB
+├ ○ /partner-demo-pack                      528 B         103 kB
+├ ○ /partner-offer                          528 B         103 kB
+├ ○ /partner-pilot                          528 B         103 kB
+├ ○ /pdf-export-blueprint                   528 B         103 kB
+├ ○ /pilot                                  528 B         103 kB
+├ ○ /pilot-follow-up-engine                 528 B         103 kB
+├ ○ /pilot-intake                           528 B         103 kB
+├ ○ /pilot-intake-form                      968 B         103 kB
+├ ○ /pilot-intake-system                    528 B         103 kB
+├ ○ /pilot-operations-lock                  528 B         103 kB
+├ ○ /pilot-ops-dashboard                    528 B         103 kB
+├ ○ /pilot-pricing-offer                    528 B         103 kB
+├ ○ /pilot-proof                            528 B         103 kB
+├ ○ /pilot-qualification-rules              528 B         103 kB
+├ ○ /pilot-request                          528 B         103 kB
+├ ○ /pilot-request-data-model               528 B         103 kB
+├ ○ /pilot-request-lifecycle                528 B         103 kB
+├ ○ /pilot-review-dashboard                 528 B         103 kB
+├ ○ /pilot-sales-page                       528 B         103 kB
+├ ○ /pre-completion-audit                   528 B         103 kB
+├ ○ /pre-v80-audit                          528 B         103 kB
+├ ○ /press                                  528 B         103 kB
+├ ○ /pricing                                528 B         103 kB
+├ ○ /production-readiness-gap-map           528 B         103 kB
+├ ○ /project-brief                          528 B         103 kB
+├ ○ /projects                               528 B         103 kB
+├ ○ /proof                                  528 B         103 kB
+├ ○ /proposal-preview                       528 B         103 kB
+├ ○ /proposal-workspace                     528 B         103 kB
+├ ○ /quality-gate                           528 B         103 kB
+├ ○ /readiness                              528 B         103 kB
+├ ○ /recovery-sop                           528 B         103 kB
+├ ○ /redaction-plan                         528 B         103 kB
+├ ○ /regression-test-plan                   528 B         103 kB
+├ ○ /review-checklist-engine                528 B         103 kB
+├ ○ /risk-missing-data-rules                528 B         103 kB
+├ ○ /roadmap                                528 B         103 kB
+├ ○ /roadmap-v2                             528 B         103 kB
+├ ○ /roi                                    528 B         103 kB
+├ ○ /roi-scenarios                          528 B         103 kB
+├ ○ /role-based-access-prep                 528 B         103 kB
+├ ○ /routes                                 528 B         103 kB
+├ ○ /runs                                   528 B         103 kB
+├ ○ /runtime-gate                           528 B         103 kB
+├ ○ /runtime-readiness                      528 B         103 kB
+├ ○ /runway-scenario-engine                 528 B         103 kB
+├ ○ /sales-ops                              528 B         103 kB
+├ ○ /sales-theater                          528 B         103 kB
+├ ○ /sample-input                           528 B         103 kB
+├ ○ /screenshot-story                       528 B         103 kB
+├ ○ /security                               528 B         103 kB
+├ ○ /storage-privacy-boundary               528 B         103 kB
+├ ○ /supabase                               528 B         103 kB
+├ ○ /supabase-pilot-capture-prep            528 B         103 kB
+├ ○ /supabase-schema-prep                   528 B         103 kB
+├ ○ /supabase-write-gate                    528 B         103 kB
+├ ○ /talk                                   528 B         103 kB
+├ ○ /talk-interaction                     1.69 kB         104 kB
+├ ○ /talk-safety                            528 B         103 kB
+├ ○ /trust                                  528 B         103 kB
+├ ○ /trust-center                           528 B         103 kB
+├ ○ /use-cases                              528 B         103 kB
+├ ○ /use-cases/investor-update              528 B         103 kB
+├ ○ /use-cases/startup-runway               528 B         103 kB
+├ ○ /user-education-flow                    528 B         103 kB
+├ ○ /v50-audit                              528 B         103 kB
+├ ○ /value-demo                             528 B         103 kB
+├ ○ /workflow                               528 B         103 kB
+├ ○ /workflow-proof                         528 B         103 kB
+├ ○ /workflow-step-registry                 528 B         103 kB
+└ ○ /write-transition                       528 B         103 kB
++ First Load JS shared by all              102 kB
+  ├ chunks/1255-5fe68596fe147850.js         46 kB
+  ├ chunks/4bd1b696-f785427dddbba9fb.js   54.2 kB
+  └ other shared chunks (total)            1.9 kB
+
+Route (pages)                                Size  First Load JS
+─ ○ /404 (1147 ms)                          550 B        98.9 kB
++ First Load JS shared by all             98.3 kB
+  ├ chunks/framework-d0ede7c356a84725.js  59.7 kB
+  ├ chunks/main-dfb9a18d976f72e5.js       36.8 kB
+  └ other shared chunks (total)           1.86 kB
+
+○  (Static)  prerendered as static content
+
+
+Exit code: 0
