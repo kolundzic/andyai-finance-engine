@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "172.0.0",
+  "title": "Runway Scenario Engine Master",
+  "route": "/runway-scenario-engine",
+  "road": "v161-v180 engine midpoint master",
+  "purpose": "Defines startup runway scenario logic and review structure."
+}
