@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "154.0.0",
+  "title": "Evidence Pack Data Model Master",
+  "route": "/evidence-pack-data-model",
+  "road": "v152-v160 engine schema and architecture",
+  "purpose": "Defines evidence pack structure: source, claim, assumption, risk, approval, output reference."
+}
