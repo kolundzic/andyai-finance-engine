@@ -1,0 +1,9 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "151.0.0",
+  "title": "Engine Completion Roadmap Master",
+  "route": "/engine-roadmap",
+  "base": "v150.0.0",
+  "next_road": "v151.0.0-v200.0.0",
+  "purpose": "Open the engine completion road after the product proof and pilot readiness phase."
+}
