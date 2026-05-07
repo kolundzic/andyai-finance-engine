@@ -1,0 +1,8 @@
+{
+  "repo": "kolundzic/andyai-finance-engine",
+  "version": "164.0.0",
+  "title": "Agent Role Registry Master",
+  "route": "/agent-role-registry",
+  "road": "v161-v180 engine midpoint master",
+  "purpose": "Defines finance agent roles such as extractor, reviewer, risk checker, evidence builder, and report drafter."
+}
